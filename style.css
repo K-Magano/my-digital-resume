@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background: #00704A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: antiquewhite;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.container, .left_side
+{
+    position: relative;
+    background: blueviolet;
+    padding: 40px;
+}
+
+.profileText
+{    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+.profileText .imgBox
+{ 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    }
+
+.profileText .imgBox img
+
+{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}    
+
+.profileText h2
+{
+    color: black;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span
+{
+
+
+}
+.container, .right_side
+{
+    position: relative;
+    background: antiquewhite;
+    padding: 40px;
+}
+.contactInfo
+
+{ 
+    padding: 40px;
+}
+.title
+{
+    color: 
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contactInfo ul
+
+{position: relative;
+    
+}
+
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:aqua;
+
+}
+.contactInfo ul li span
+{
+    color: beige;
+    font-weight: 400;
+
+}
