@@ -10,38 +10,79 @@
     <link rel="stylesheet" href="style.css">
     <title>Digi CV Trial</title>
 </head>
+
 <body>
-  <div class="container"> </div>
-    <div class="left_side"> </div>
-      <div class="profileText"></div>
-        <div class="imgBox"></div>
-         <img src="images/k.magano.jpg" alt="Picture of K.Magano" width="300" height="300">
+  <div class="container"> 
+
+    <header>
+        
+      <h2>K. Magano</h2><br>
+
+      <img src="images/k.magano.jpg" alt="Picture of K.Magano" width="300" height="300">
+      <span><h2>Web Developer</span></h2>
+      
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Experience">Experience</a></li>
+      <li><a href="#Skills">Skills</a></li>
+     
+   </header>
+
+   <div class="main"></div>
+
+
+   <footer>
+    <div class="contactInfo">
+      <h3 class="title">Contact Info</h3>
+      <ul>
+        <li>
+            <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="text">keorax@gmail</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+            <span class="text"> www.royalinpact.com</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+            <span class="text"> Linkedin.com</span>
+        </li>
+      </ul>
+      <fieldset>
+        <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
+          
+          <h1> GET IN TOUCH</h1>
+          <br>
+           
+             <input type="Name" name="name"  placeholder="Full Name" required> </input>
+         
+             <input type="email" name="email" placeholder="Email Address" required>
+  
+             <input type="phone number" name="phone number" placeholder="Phone Number"></input>
+         
+        
         <div>
-        <h2>K. Magano</h2><br><span>Web Developer</span></h2>
-        </div>
+        <select name="_subject" id="subject">
+           <option value=" ">Reason for contact</option>
+           <option value="Interview Opportunity">Interview Opportunity</option>
+           <option value="Recruiter">Recruiter</option>
+           <option value="Resume feedback">Resume feedback</option>
+        </select> </div>
+  
+        <br> 
+        
+        <textarea id="text" name="message" rows="3" cols="30" placeholder="Your message."></textarea>
+               
+          <button type="submit" class="submit">SEND</button>
+      
+        </fieldset>         
+  </form>
+    </div>
+    
+   </footer>
+  </div>
 
+     
 
-        <div class="contactInfo">
-          <h3 class="title">Contact Info</h3>
-          <ul>
-            <li>
-                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                <span class="text">keorax@gmail</span>
-            </li>
-            <li>
-                <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-                <span class="text"> www.royalinpact.com</span>
-            </li>
-            <li>
-                <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                <span class="text"> Linkedin.com</span>
-            </li>
-            
-            
-          </ul>
-
-        </div>
-
-    <div class="right_side"> </div>
+    
 </body>
 </html>
