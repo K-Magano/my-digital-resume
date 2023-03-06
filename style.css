@@ -24,7 +24,7 @@ body
     background-color: antiquewhite;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+   
     
 }
 
@@ -95,7 +95,6 @@ body
 .title
 {
     color: 
-    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
 }
