@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    background: burlywood;
+    
 }
 
 body
 {
   font-family: sans-serif;
   text-align: center;
-  background: blue;
+  
 }
 
 .wrapper
 {
     width: 90%;
     margin:0 auto;
-    background-color: aqua;
+    
 }
 
 header
@@ -31,6 +31,95 @@ header
     width: 30%;
     float: left;
     text-align: left;
-    line-height: 100px;
-    
+    line-height: 100px/*this helps postion the hight of a line drop or pick up a line*/
+    }
+
+ .logo a 
+ {
+   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: beige;
+   letter-spacing: 4px; 
+ }
+ 
+ nav 
+ {
+  float: right;
+  line-height: 100px;
+ }
+
+ nav a
+ {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color:beige;
+  padding: 36px 10px;
+  margin: 0 1px;
+  
+ }
+
+ nav a:hover
+ {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+ 
+}
+
+ .banner-area{
+    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+
+  }
+
+  .banner-area::after /*creating an overlay for the hero image*/
+  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: darkblue;
+    opacity: .7;
+    z-index: -1;
+}
+
+.banner-area h2
+{
+  padding-top: 8%;
+  font-size: 80px;
+  color: white;
+}
+
+.content-area
+{
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: aliceblue;
+  top: 600px;
+}
+
+.content-area h2
+{
+  font-size: 40px;
+  margin: 0;
+  padding-top: 30px;
+  letter-spacing: 3px;
+}
+
+.content-area p
+{
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: justify;
 }
