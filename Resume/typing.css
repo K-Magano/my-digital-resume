@@ -13,6 +13,7 @@ body{
     background: darkslategray;
 }
 
+/*The area with my picture and the animations*/
 .wrapper{
     display: inline-flex;
     }
