@@ -44,7 +44,7 @@ header
    color: beige;
    letter-spacing: 4px; 
    }
- 
+ /*for the yellow color change in the header and footer.*/ 
    .logo span, footer span
    {
     color:#FDBB2D;
@@ -52,7 +52,6 @@ header
  
  nav 
  {
-  
   float: right;
   line-height: 100px;
  }
@@ -87,7 +86,13 @@ header
     position: fixed;
 
   }
+.img{
 
+  margin-left: 65%;
+  background-color: #fff;
+  padding-bottom: 70%;
+  
+}
   /*creating an overlay for the hero image
   .banner-area::after {
     content: " ";
@@ -171,15 +176,15 @@ footer{background: #16191E;
 }
 
 fieldset
-{ 
-   color: white;
+{  
+   background: #3A1C71;
    border: #16191E;
    margin: 10%;
     
 }
 
 form input, form textarea, form select
-{
+{ display: flexbox;
   border: none;
   margin: 5px 0;
   padding: 10px;
@@ -218,19 +223,22 @@ form button
     }
 
     .change-tx .dynamic-txts{
-      margin-left: 15px;
+      margin-left: 5px;
+      padding-right: 50px;
       line-height: 90px;
       height: 90px;
-      overflow: hidden;
+      overflow: hidden; /* hides the other words so one word can show at a time*/
+     
   }
   .dynamic-txts li{
+    
     color:  #FDBB2D;
     font-family:'Caveat', cursive;
     font-size: 70px;
     font-weight: 400;
     position: relative;
     top: 0;
-    animation: slide 4s steps(4) infinite;
+    animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
 }
 @keyframes slide {
 
