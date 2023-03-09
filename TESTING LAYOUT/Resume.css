@@ -142,6 +142,33 @@ footer{background: #16191E;
   color: white;
   
  }     
+
+ .Twitter, .LinkedIn, .Insta{
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #ffff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  /* for a smooth up and down hover movement*/
+  transition-duration: 0.3s
+
+
+}
+
+ .social-icons :hover
+ {
+  background-color: white;
+  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+  font-weight: bolder;
+  border-radius: 50%;
+  /* for the icons to move up when hovered over*/
+  transform: translateY(-15px) ;
+  cursor: pointer;
+}
+
 fieldset
 { 
    color: white;
