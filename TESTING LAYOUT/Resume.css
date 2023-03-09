@@ -8,6 +8,7 @@ body
 {
   font-family: sans-serif;
   text-align: center;
+  background:linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   
 }
 
@@ -22,8 +23,9 @@ header
 {
   width: 100%;
   height: 100px;
-  background: brown;
+  background: #16191E;
   position: fixed;
+  
 }
 
 .logo
@@ -38,13 +40,19 @@ header
  {
    text-decoration: none;
    font-size: 30px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family:'Noto Serif TC', serif;
    color: beige;
    letter-spacing: 4px; 
- }
+   }
+ 
+   .logo span, footer span
+   {
+    color:#FDBB2D;
+   }
  
  nav 
  {
+  
   float: right;
   line-height: 100px;
  }
@@ -52,10 +60,10 @@ header
  nav a
  {
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Noto Serif TC', serif";
   font-size: 20px;
   color:beige;
-  padding: 36px 10px;
+  padding: 15px 10px;
   margin: 0 1px;
   
  }
@@ -63,24 +71,25 @@ header
  nav a:hover
  {
   background-color: white;
-  color: black;
+  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   font-weight: bolder;
+  border-radius: 20%;
  
 }
 
  .banner-area{
-    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg);
+    background: #16191E;
     background-size: cover;
     background-position: center center;
-    top: 100px;
+    top: 150px;
     height: 100vh;
     width: 100%;
     position: fixed;
 
   }
 
-  .banner-area::after /*creating an overlay for the hero image*/
-  {
+  /*creating an overlay for the hero image
+  .banner-area::after {
     content: " ";
     position: absolute;
     top: 0;
@@ -88,10 +97,11 @@ header
     display: block;
     width: 100%;
     height: 100%;
-    background: darkblue;
+    background:#16191E;
     opacity: .7;
     z-index: -1;
-}
+}*/
+  
 
 .banner-area h2
 {
@@ -103,7 +113,7 @@ header
 .content-area
 {
   width: 100%;
-  height: 1000px;
+  height: 900px;
   position: relative;
   background-color: aliceblue;
   top: 600px;
@@ -124,7 +134,40 @@ header
   text-align: justify;
 }
 
-footer
-{
-  background-color: blueviolet;
+footer{background: #16191E;
+  margin: 10%;  
 }
+
+ footer h2 {
+  color: white;
+  
+ }     
+fieldset
+{ 
+   color: white;
+   border: #16191E;
+   margin: 10%;
+    
+}
+
+form input, form textarea, form select
+{
+  border: none;
+  margin: 5px 0;
+  padding: 10px;
+  outline: none;
+  border-radius: 40px;
+}
+
+form button
+{  
+    padding: 10px 20px;
+    margin: 10px;
+    border: 0;
+    outline: none;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ffff;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+  }
