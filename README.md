@@ -1,2 +1,3 @@
 # Digi-CV
-working on my final project
+Working on my final capston.
+Languages used: CSS and HTML.
