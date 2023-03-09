@@ -106,9 +106,10 @@ header
 .banner-area h2
 {
   padding-top: 8%;
+  padding-right: 40%;
+  margin-left:50px ;
   font-size: 80px;
-  color: white;
-}
+ }
 
 .content-area
 {
@@ -198,3 +199,48 @@ form button
     color: #ffff;
     background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   }
+ 
+  /*Trying to create typewriter effect */
+  
+  .change-tx
+  {
+    display: inline-flex;
+  
+  }
+
+ .change-tx .static-txt{
+        color: #3A1C71;
+        font-size: 60px;
+        font-weight: 400;
+        position: relative;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+       
+    }
+
+    .change-tx .dynamic-txts{
+      margin-left: 15px;
+      line-height: 90px;
+      height: 90px;
+      overflow: hidden;
+  }
+  .dynamic-txts li{
+    color:  #FDBB2D;
+    font-family:'Caveat', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: slide 4s steps(4) infinite;
+}
+@keyframes slide {
+
+    100%{
+         top: -360px;
+    }
+}
+
+.dynamic-txts li span{
+    position: relative;
+}
+
+ 
