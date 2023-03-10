@@ -34,17 +34,17 @@
 
                 <!--menu-->
                 <nav>
-                    <a href="#">Home</a>
+                    <a href="#banner-area">Home</a>
                     <a href="#Education">Education</a>
-                    <a href="#Qualification">Qualification</a>
-                    <a href="Skills">Skills</a>
+                    <a href="#Experience">Experience</a>
+                    <a href="#Skills">Skills</a>
                     <a href="#Contact">Contact</a>
                 </nav>
             </div>
         </header>
 
-        <!--The big black section of the page with the animation and picture-->
-        <div class="banner-area">
+        <!--The big black section of the page with the animation and pictures-->
+             <div class="banner-area" id="banner-area">
       <!--divided banner-area into two section for better control-->
           <div class="animation-side">
             <h2>
@@ -80,9 +80,9 @@
             <div class="wrapper">
               
         
-  <section>
+  <section class="left_side"><!--added two sections for better use of flex--> 
 
-    <h2 id="Education">Education</h2>
+    <h2 id="Education">Education</h2> 
   
      <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank" style="color:#FDBB2D">CodeSpace Academy</a></h3>
 
@@ -91,7 +91,9 @@
     <h3>Qualification 2</h3>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  
+  </section>
+
+<section class="right_side">
   <h2 id="Experience">Experience</h2>
   
     <h3>Job 1</h3>
@@ -121,6 +123,7 @@
         <li>Skill 4</li>
        
       </div ><!--end of div for content area-->
+    </section>
     
       <!--Contact me section which includes the form and social media icons-->
       <div class="footer">
