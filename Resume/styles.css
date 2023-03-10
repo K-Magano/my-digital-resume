@@ -33,8 +33,9 @@ header
     width: 30%;
     float: left;
     text-align: left;
-    line-height: 100px/*this helps postion the hight of a line drop or pick up a line*/
+    line-height: 100px/*this helps position the hight of a line drop or pick up a line*/
     }
+    
 
  .logo a 
  {
@@ -77,7 +78,9 @@ header
 }
 
  .banner-area{
-    background: #16191E;
+    display: flex;
+    flex-direction: row;
+    background: #ffff;
     background-size: cover;
     background-position: center center;
     top: 150px;
@@ -86,11 +89,20 @@ header
     position: fixed;
 
   }
-.img{
 
-  margin-left: 65%;
-  background-color: #fff;
-  padding-bottom: 70%;
+.animation-side
+{
+  display: block;
+  background:orangered /*#16191E*/;
+  width:100%;
+
+}
+
+.picture-side
+{
+  
+  background: #16191E;
+  width: 50%;
   
 }
   /*creating an overlay for the hero image
@@ -210,16 +222,16 @@ form button
   .change-tx
   {
     display: inline-flex;
-  
+
   }
 
  .change-tx .static-txt{
+       
         color: #3A1C71;
         font-size: 60px;
-        font-weight: 400;
-        position: relative;
+        background: #16191E;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-       
+         
     }
 
     .change-tx .dynamic-txts{
