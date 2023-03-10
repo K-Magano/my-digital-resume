@@ -60,7 +60,7 @@ header
   line-height: 100px;
  }
 
- nav a
+ nav a 
  {
   text-decoration: none;
   font-family: 'Caveat', cursive;
@@ -259,9 +259,6 @@ header
  transform: translateY(-15px) ;
  cursor: pointer;
 }
- 
-.
-style="text-decoration: none" style="color:beige"
 .location:hover
 {
     background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
