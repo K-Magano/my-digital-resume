@@ -51,7 +51,9 @@ header
  {
   color:#FDBB2D;
  }
-
+ #Contact span {
+   color: #FDBB2D;
+ }
  nav 
  {
   float: right;
