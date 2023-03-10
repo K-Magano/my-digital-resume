@@ -47,11 +47,11 @@ header
    }
    
  /*for the yellow color change in the header and footer.*/ 
-   .logo span, footer span
-   {
-    color:#FDBB2D;
-   }
- 
+ .logo span
+ {
+  color:#FDBB2D;
+ }
+
  nav 
  {
   float: right;
@@ -145,8 +145,8 @@ header
   font-family: 'Source Code Pro', monospace;
   font-size: 45px;
   background: #3A1C71;
-  padding: 15px;
-  margin: 50px;
+  padding: 20px;
+  margin: 0 250px 0 250px;
   border-radius: 40px;
   
 }
@@ -160,7 +160,7 @@ header
 
 .content-area p
 { font-family: 'Courier New', Courier, monospace;
-  
+  font-size: 20px;
   padding: 2% 0;
   line-height: 30px;
   text-align: justify;
@@ -168,20 +168,22 @@ header
 }
 
 .content-area li
-{
+{ 
+  margin: 5px;
   color: antiquewhite;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+
 }
 
 .footer{
   background: #16191E;
-   margin: 10%;  
+  margin: 5%;  
 }
    
 
- .Twitter, .LinkedIn, .Insta{
-  margin: 10px 30px; /*Spacing in-between logos*/
+ .Twitter, .LinkedIn, .Insta, .Github{
+  margin:  30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
   color: #ffff;
@@ -208,15 +210,16 @@ fieldset
 {  font-family:'Source Code Pro', monospace;
    border: #16191E;
    margin: 10%; /*space between social icons and 'get in touch*/
-   padding-left: 25%; /*helped center the contact bars in a straight row down*/
-    
+   padding-left: 30%; /*helped center the contact bars in a straight row down*/
+   padding-top: 10px; 
+     
 }
 
 fieldset h1 
 {   
     font-size: 30px;
     color: beige;
-    padding-right: 50%;
+    padding-right: 65%;
 }
 form input, form textarea, form select
 
@@ -238,13 +241,20 @@ form button
     padding: 10px 20px;
     margin: 10px;
     border: 0;
-    outline: none;
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
-    font-size: 15px;
-    color: #ffff;
-    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: beige;
+    background: #16191E;
   }
+
+  form button:hover
+  {
+   background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+   border-radius: 20px;
+   }
  
   /*Trying to create typewriter effect */
   
@@ -263,6 +273,7 @@ form button
     }
 
     .change-tx .dynamic-txts{
+      
       margin-left: 5px;
       padding-right: 50px;
       line-height: 90px;

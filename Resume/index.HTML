@@ -43,9 +43,9 @@
             </div>
         </header>
 
-        <!--The big black section of the page with the animation-->
+        <!--The big black section of the page with the animation and picture-->
         <div class="banner-area">
-
+      <!--divided banner-area into two section for better control-->
           <div class="animation-side">
             <h2>
             <div class="change-tx">
@@ -61,11 +61,14 @@
             </h2>
           </div>
         
-
-
-
+          <!--the section with my picture in the banner section-->
         <div class="picture-side">
             <div class="img">
+              <picture>
+                <source srcset=".\SRC\images\headshot.jpg" media="(max-width: 400px)">
+                <source srcset=".\SRC\images\head_and_shoulder.jpg" media="(max-width: 900px)">
+                 <img src="./SRC/images/Atlanta.jpg" alt="Profile picture of K.Magano"  width="250" height="250" >
+               </picture>
               <img src="Resume\imageedit_2_3253911773.png" style="color: white" alt="Profile picture of K.Magano"  width="250" height="250" >
             </div>
                  </div>
@@ -77,7 +80,7 @@
             <div class="wrapper">
               
         
-  <section class="main">
+  <section>
 
     <h2 id="Education">Education</h2>
   
@@ -117,7 +120,7 @@
         <li>Skill 3</li>
         <li>Skill 4</li>
        
-      </div>
+      </div ><!--end of div for content area-->
     
       <!--Contact me section which includes the form and social media icons-->
       <div class="footer">
@@ -127,10 +130,10 @@
           <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" class="LinkedIn" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           <a href="https://twitter.com/VillagePrincezz" class="Twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
           <a href="https://www.instagram.com/keo_magano/" class="Insta" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
+          <a href="https://github.com/K-Magano" class="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
       </ul>
       </div>
-       
+        <!--contact form-->
        <fieldset>
      <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
        
