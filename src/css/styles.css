@@ -202,7 +202,7 @@ header
 }
    
 
- .Twitter, .LinkedIn, .Insta, .Github, .email, .call{
+ .Twitter, .LinkedIn, .Insta, .Github, .email, .call, .location{
   margin:  30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
@@ -226,6 +226,18 @@ header
   cursor: pointer;
 }
 
+.call{
+  margin:  30px; /*Spacing in-between logos*/
+  display: inline-block;
+  padding: 20px 20px;
+  color: #ffff;
+  border: 1px solid #FDBB2D;
+  border-radius: 50%;
+  /* for a smooth up and down hover movement*/
+  transition-duration: 0.3s
+
+
+}
 .email:hover /*had to create a contact me div in order to be able to style the icons*/
 {
  
@@ -247,7 +259,19 @@ header
  transform: translateY(-15px) ;
  cursor: pointer;
 }
-
+ 
+.
+style="text-decoration: none" style="color:beige"
+.location:hover
+{
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    font-weight: bolder;
+    border-radius: 50%;
+    /* for the icons to move up when hovered over*/
+    transform: translateY(-15px) ;
+    cursor: pointer;
+  
+}
 fieldset
 {  font-family:'Source Code Pro', monospace;
    border: #16191E;
