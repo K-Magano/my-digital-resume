@@ -147,9 +147,9 @@ header
   /*background-color: aliceblue;*/
   top: 600px;
 }
-.right_side
+/*.right_side (layout option 2)
 {  
-   float: right; /*float helps section stay in a place*/
+   float: right; /*float helps section stay in a place
    width: 50%;
    height: 150vh;
   
@@ -160,9 +160,9 @@ header
   float: left;
   width: 50%;
   height: 150vh;
-  
+  }*/
    
-}
+
 .content-area h2
 
 { 
