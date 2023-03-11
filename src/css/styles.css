@@ -16,7 +16,7 @@ body
   background:linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
   
 }
-
+/*===================Section with the navbar, animation and image==================================*/
 .wrapper
 {
     width: 90%;
@@ -56,9 +56,7 @@ header
  {
   color:#FDBB2D;
  }
- #Contact span {
-   color: #FDBB2D;
- }
+ 
  nav 
  {
   float: right;
@@ -105,6 +103,51 @@ header
 
 }
 
+  /*Trying to create typewriter effect */
+  
+  .change-tx
+  {
+    display: inline-flex;
+
+  }
+
+ .change-tx .static-txt{
+       
+        color: #3A1C71;
+        font-size: 60px;
+        background: #16191E;
+        font-family:'Source Code Pro', monospace;
+    }
+
+    .change-tx .dynamic-txts{
+      
+      margin-left: 5px;
+      padding-right: 50px;
+      line-height: 90px;
+      height: 90px;
+      overflow: hidden; /* hides the other words so one word can show at a time*/
+     
+  }
+  .dynamic-txts li{
+    
+    color:  #FDBB2D;
+    font-family:'Caveat', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
+}
+@keyframes slide {
+
+    100%{
+         top: -360px;
+    }
+}
+
+.dynamic-txts li span{
+    position: relative;
+}
 .picture-side
 {
   
@@ -135,7 +178,7 @@ header
   font-size: 80px;
  }
 
-
+/*==================================Section with the Skills, education and expirence==============================================*/
 .content-area
 { 
   display: flex;
@@ -200,12 +243,16 @@ header
 
 }
 
+
+/*=============================================Section with all contact details and form==============================================================*/
 .footer{
   background: #16191E;
   margin-top: 5%;  
   align-items: flex-end;
 }
-   
+#Contact span {
+  color: #FDBB2D;
+} 
 
  .Twitter, .LinkedIn, .Insta, .Github, .email, .map, .call{
   margin:  30px; /*Spacing in-between logos*/
@@ -295,50 +342,6 @@ form button
    border-radius: 20px;
    }
  
-  /*Trying to create typewriter effect */
-  
-  .change-tx
-  {
-    display: inline-flex;
 
-  }
-
- .change-tx .static-txt{
-       
-        color: #3A1C71;
-        font-size: 60px;
-        background: #16191E;
-        font-family:'Source Code Pro', monospace;
-    }
-
-    .change-tx .dynamic-txts{
-      
-      margin-left: 5px;
-      padding-right: 50px;
-      line-height: 90px;
-      height: 90px;
-      overflow: hidden; /* hides the other words so one word can show at a time*/
-     
-  }
-  .dynamic-txts li{
-    
-    color:  #FDBB2D;
-    font-family:'Caveat', cursive;
-    font-size: 70px;
-    font-weight: 400;
-    position: relative;
-    top: 0;
-    animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
-}
-@keyframes slide {
-
-    100%{
-         top: -360px;
-    }
-}
-
-.dynamic-txts li span{
-    position: relative;
-}
 
  
