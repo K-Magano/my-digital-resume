@@ -13,32 +13,38 @@ body
 {
   font-family: sans-serif;
   text-align: center;
-  background:linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-  
+  background: bisque;
+  padding: 0px;
+  margin: 0px;
 }
 /*===================Section with the navbar, animation and image==================================*/
 .wrapper
 {
     width: 90%;
     margin:0 auto;
+    padding-inline: 1rem;
   
   }
 
-header
+ 
+header /*My name and navbar*/
 {
   width: 100%;
   height: 100px;
-  background: #16191E;
+  background: olive;
   position: fixed;
+  z-index: 1000px;
+
   
 }
 
-.logo /*My name and Resume*/
+.logo 
 {    
     width: 30%;
     float: left;
     text-align: left;
-    line-height: 100px/*this helps position the hight of a line drop or pick up a line*/
+    line-height: 100px;/*this helps position the hight of a line drop or pick up a line*/
+    background: #FDBB2D;
     }
     
 
@@ -61,6 +67,7 @@ header
  {
   float: right;
   line-height: 100px;
+  background: green;
  }
 
  nav a 
@@ -84,24 +91,40 @@ header
 
  .banner-area{
     display: flex;
-    flex-direction: row;
-    background: #ffff;
+    flex-direction: column;
+    position: sticky;
+    background: #16191E;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     top: 150px;
     height: 100vh;
     width: 100%;
-    position: fixed;
+    
+   
 
   }
 
-.animation-side
+  img
+  {
+    padding-left: 40%;
+    border-radius: 50%;
+    transition: border-radius 500ms ease-in-out;
+   }
+
+   img:hover
+   {
+     border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+   }
+
+  /*.animation-side
 {
   display: block;
   background: #16191E;
   width:100%;
 
 }
+*/
+
 
   /*Trying to create typewriter effect */
   
@@ -148,13 +171,15 @@ header
 .dynamic-txts li span{
     position: relative;
 }
-.picture-side
+
+/*.picture-side
 {
   
   background: #16191E;
   width: 50%;
   
-}
+}*/
+
   /*creating an overlay for the hero image
   .banner-area::after {
     content: " ";
@@ -189,6 +214,7 @@ header
   background: #16191E;
   /*background-color: aliceblue;*/
   top: 600px;
+  z-index: -4;
 }
 /*.right_side (layout option 2)
 {  
@@ -321,7 +347,7 @@ form input, form textarea, form select
   border-radius: 40px;
 }
 
-form button
+  form button
 {   
     display: flex;
     flex-direction: row;
@@ -343,6 +369,7 @@ form button
    border-radius: 20px;
    }
  
+   
 
 
  
