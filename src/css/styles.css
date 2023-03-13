@@ -269,7 +269,7 @@ header /*My name and navbar*/
   color: #FDBB2D;
 } 
 
- .Twitter, .LinkedIn, .Insta, .Github, .email, .map, .call{
+ .Twitter, .LinkedIn, .Insta, .Github, .email, .map{
   margin:  30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
@@ -302,6 +302,13 @@ header /*My name and navbar*/
   /* for the icons to move up when hovered over*/
   transform: translateY(-15px) ;
   cursor: pointer;
+}
+
+.number{
+
+  color: bisque;
+  font-size: 30px;
+  font-family: cursive;
 }
 
 .grid
@@ -383,6 +390,7 @@ form input, form textarea, form select
 {
   display: grid;
   grid-template-columns: 250PX;
+  background: #16191E;
   
   }
     .grid h2{
