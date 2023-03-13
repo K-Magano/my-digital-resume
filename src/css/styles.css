@@ -3,6 +3,7 @@ html
   scroll-behavior: smooth; /*for better scrolling*/
   scroll-padding-top: 75px;
   scroll-padding-bottom: 75px ;
+  
 }
 
 *{
@@ -93,22 +94,27 @@ header /*My name and navbar*/
     display: flex;
     flex-direction: column;
     position: sticky;
-    background: #16191E;
-    background-size: cover;
+    /*background: #16191E;*/
     background-position: center;
+    background-image: url(https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/117765357_10216368392796540_8435720191695627714_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3ME-tqinkfQAX90XplQ&_nc_ht=scontent-jnb1-1.xx&oh=00_AfAqezkJoRfwNREuQD2bcuM-L0tGOAQgAAwkKK03i2m3YA&oe=64366AFD);
+    background-size: cover;
     height: 100vh;
-   
     
-    }
+  }
 
+  .menu
+  {
+    margin-top: 5%;
+  }
   .menu a
   {text-decoration: none;
   font-family: 'Caveat', cursive;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 4px;
   color:beige;
   padding: 15px 10px;
-  margin: 0 1px;}
+  background: #3A1C71;
+  }
 
   .menu a:hover
   {
@@ -131,10 +137,9 @@ header /*My name and navbar*/
 
 
   /*Trying to create typewriter effect */
- .animation-side
+ .picture-side
  {
-  /*background-image: url(https://cdn.wallpapersafari.com/87/44/XTUpxc.jpg);
-  background-size: cover;*/
+  
  }
  .static-txt{
        
