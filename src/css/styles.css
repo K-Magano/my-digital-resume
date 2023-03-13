@@ -1,6 +1,7 @@
 html 
 {
   scroll-behavior: smooth; /*for better scrolling*/
+  scroll-padding-top: 75px;
 }
 
 *{
@@ -135,16 +136,18 @@ header /*My name and navbar*/
         background: orangered;
         font-family:'Source Code Pro', monospace;
         margin-top: 20%;
+       
         
     }
 
+   
     .dynamic-txts{
       height: 90px;
       overflow: hidden; /* hides the other words so one word can show at a time*/
       background: #3A1C71;
       margin-top: 10%;
-      padding-right:50%
-      
+      margin-right: 40px;
+            
   }
   .dynamic-txts li{
     
@@ -189,14 +192,6 @@ header /*My name and navbar*/
     z-index: -1;
 }*/
   
-
-.banner-area h2
-{
-  padding-top: 8%;
-  padding-right: 40%;
-  margin-left:50px ;
-  font-size: 80px;
- }
 
 /*==================================Section with the Skills, education and expirence==============================================*/
 .content-area
@@ -243,7 +238,7 @@ header /*My name and navbar*/
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   padding: 25px ;
-  color: green;
+  
  }
 
 .content-area p
@@ -253,7 +248,7 @@ header /*My name and navbar*/
   line-height: 30px;
   text-align: justify;
   color: antiquewhite;
-  background: orangered;
+ 
 }
 
 .content-area li
