@@ -377,3 +377,18 @@ form input, form textarea, form select
      border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
    }
 
+   @media screen and (max-width: 320px) {
+
+    .grid
+{
+  display: grid;
+  grid-template-columns: 250PX;
+  
+  }
+    .grid h2{
+      background: olive;
+      font-family: 'Source Code Pro', monospace;
+      gap: 10rem;
+  font-size: 25px;
+      }
+  }
