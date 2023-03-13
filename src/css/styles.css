@@ -347,20 +347,21 @@ form input, form textarea, form select
      border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
    }
 
+   /*========================Small Mobile size============================================*/
    @media screen and (max-width: 320px) {
 
     .grid
 {
   display: grid;
-  grid-template-columns: 250PX;
+  grid-template-columns: 300PX;
   background: #16191E;
   
   }
     .grid h2{
       background: olive;
       font-family: 'Source Code Pro', monospace;
-      gap: 10rem;
-  font-size: 25px;
+      font-size: 20px;
+      
       }
 
       .logo 
@@ -384,8 +385,7 @@ form input, form textarea, form select
         nav 
         {
         display: flex;
-         float: center;
-         line-height: 10px;
+        line-height: 30px;
          
         }
        
@@ -462,4 +462,24 @@ position: relative;
 top: 0;
 animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
 }
+
+img
+{
+  padding-left: 5%;
+  transition: border-radius 500ms ease-in-out;
+  }
+
+ img:hover
+ {
+   border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+ }
+
+ .number{
+
+  color: bisque;
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 5%;
+}
+
   }
