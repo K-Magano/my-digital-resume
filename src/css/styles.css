@@ -159,6 +159,13 @@ nav a:hover {
   padding: 25px;
 }
 
+/*=====oddly code isn't linked*/
+h3 a{
+  cursor: pointer;
+  text-decoration: none;
+  font-style: italic;
+  color: #fdbb2d;
+}
 .content-area p {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
