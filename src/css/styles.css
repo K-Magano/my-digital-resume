@@ -412,7 +412,7 @@ form input, form textarea, form select
     
       .menu
       {
-        margin-top: 5%;
+        margin-top: 15%;
       }
       .menu a
       {text-decoration: none;
@@ -436,10 +436,10 @@ form input, form textarea, form select
        
   color: #3A1C71;
   font-family:'Source Code Pro', monospace;
-  font-size: 60px;
+  font-size: 30px;
   background: orangered;
-  margin-top: 15%;
-  margin-right: 45%;
+  margin-top: 80%;
+  margin-right: 0%;
  
   
 }
@@ -448,8 +448,8 @@ form input, form textarea, form select
 height: 90px;
 overflow: hidden; /* hides the other words so one word can show at a time*/
 background: #3A1C71;
-margin-top: 5%;
-margin-left: 45%;
+margin-top: 10%;
+margin-left: 0%;
             
 }
 .dynamic-txts li{
