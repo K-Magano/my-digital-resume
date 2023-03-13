@@ -347,8 +347,143 @@ form input, form textarea, form select
      border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
    }
 
-   /*========================Small Mobile size============================================*/
-   @media screen and (max-width: 320px) {
+   /*========================medium and large Mobile size============================================*/
+   @media screen and (max-width: 425px) {
+
+    .grid
+{
+  display: grid;
+  grid-template-columns: 50PX;
+  background: #16191E;
+  
+  }
+    .grid h2{
+      background: olive;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 5px;
+      
+      }
+
+      .logo 
+      {    
+          display: flex;
+          float: left;
+          text-align: left;
+          line-height: 20px;/*this helps position the hight of a line drop or pick up a line*/
+        
+      }
+      .logo a 
+      {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Source Code Pro', monospace;
+        color: beige;
+        width: 50px;
+        }
+
+        nav 
+        {
+        display: flex;
+        line-height: 30px;
+         
+        }
+       
+        nav a
+        {
+         text-decoration: none;
+         font-family: 'Caveat', cursive;
+         font-size: 20px;
+         letter-spacing: 2px;
+         color:beige;
+         padding: 15px 5px;
+         margin: 0 0px;
+         
+        }
+       
+        nav a:hover
+        {
+         background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+         border-radius: 10px;
+        
+       }
+
+      
+    
+      .menu
+      {
+        margin-top: 15%;
+      }
+      .menu a
+      {text-decoration: none;
+      font-family: 'Caveat', cursive;
+      font-size: 20px;
+      letter-spacing: 4px;
+      color:beige;
+      padding: 15px 10px;
+      background: #3A1C71;
+      }
+    
+      .menu a:hover
+      {
+       background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+       border-radius: 20px;
+      
+     }
+
+     
+ .static-txt{
+       
+  color: #3A1C71;
+  font-family:'Source Code Pro', monospace;
+  font-size: 5px;
+  background: orangered;
+  margin-top: 80%;
+  margin-right: 0%;
+ 
+  
+}
+
+.dynamic-txts{
+height: 90px;
+overflow: hidden; /* hides the other words so one word can show at a time*/
+background: #3A1C71;
+margin-top: 10%;
+margin-left: 0%;
+            
+}
+.dynamic-txts li{
+
+color:  #FDBB2D;
+font-family:'Caveat', cursive;
+font-size: 70px;
+font-weight: 400;
+position: relative;
+top: 0;
+animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
+}
+
+img
+{
+  padding-left: 5%;
+  transition: border-radius 500ms ease-in-out;
+  }
+
+ img:hover
+ {
+   border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+ }
+
+ .number{
+
+  color: bisque;
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 5%;
+}
+
+  }
+
+  @media screen and (max-width: 320px) {
 
     .grid
 {
