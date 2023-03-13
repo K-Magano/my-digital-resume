@@ -240,29 +240,18 @@ h3 a{
 }
 
 fieldset {
-  font-family: "Source Code Pro", monospace;
   border: #16191e;
-  padding-right: 60%; /*helped center the contact bars in a straight row down*/
-  padding-top: 60px;
+ 
 }
 
-fieldset h1 {
-  display: inline-block;
-  background: #3a1c71;
-  font-size: 30px;
-  color: beige;
-  padding-right: 50%;
-}
 form input,
 form textarea,
 form select {
   display: flex;
-  align-items: center;
   border: none;
   text-align: center;
   margin: 10px 0;
   padding: 10px;
-  outline: none; /*shows social media*/
   border-radius: 40px;
 }
 
@@ -270,14 +259,13 @@ form button {
   display: flex;
   padding: 10px 20px;
   margin: 10px;
-  width: 120px;
   border-radius: 20px;
   border: 0;
   font-family: "Caveat", cursive;
   font-size: 30px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   color: beige;
-  background: #16191e;
+  background: orangered;
   cursor: pointer;
 }
 
@@ -296,6 +284,7 @@ img:hover {
   border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%;
 }
 
+/*===========Mid - large Screens===============================*/
 @media screen and (max-width: 425px) {
   .grid {
     display: grid;
@@ -403,11 +392,12 @@ img:hover {
   }
 }
 
+/*================Small screens====================*/
 @media screen and (max-width: 320px) {
   .grid {
     display: grid;
     grid-template-columns: 300px;
-    background: #16191e;
+    background: orangered;
   }
   .grid h2 {
     background: olive;
@@ -509,7 +499,6 @@ img:hover {
     font-family: cursive;
     margin-bottom: 5%;
   }
-}
-/*========================medium and large Mobile size============================================*/
-@media screen and (max-width: 425px) {
+
+ 
 }
