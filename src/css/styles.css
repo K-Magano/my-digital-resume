@@ -15,8 +15,6 @@ body
   font-family: sans-serif;
   text-align: center;
   background: bisque;
-  padding: 0px;
-  margin: 0px;
 }
 /*===================Section with the navbar, animation and image==================================*/
 .wrapper
@@ -128,14 +126,19 @@ header /*My name and navbar*/
 
 
   /*Trying to create typewriter effect */
- 
+ .animation
+ {
+  margin: 0;
+  padding: 0;
+ }
  .static-txt{
        
         color: #3A1C71;
+        font-family:'Source Code Pro', monospace;
         font-size: 60px;
         background: orangered;
-        font-family:'Source Code Pro', monospace;
-        margin-top: 20%;
+        margin-top: 15%;
+        margin-right: 45%;
        
         
     }
@@ -145,9 +148,9 @@ header /*My name and navbar*/
       height: 90px;
       overflow: hidden; /* hides the other words so one word can show at a time*/
       background: #3A1C71;
-      margin-top: 10%;
-      margin-right: 40px;
-            
+      margin-top: 5%;
+      margin-left: 45%;
+                  
   }
   .dynamic-txts li{
     
