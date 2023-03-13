@@ -123,24 +123,7 @@ header /*My name and navbar*/
   
  }
 
-  /*img
-  {
-    padding-left: 40%;
-    border-radius: 50%;
-    transition: border-radius 500ms ease-in-out;
-   }
 
-   img:hover
-   {
-     border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
-   }*/
-
-
-  /*Trying to create typewriter effect */
- .picture-side
- {
-  
- }
  .static-txt{
        
         color: #3A1C71;
@@ -260,7 +243,7 @@ header /*My name and navbar*/
   font-size: 20px;
   padding: 2% 0;
   line-height: 30px;
-  text-align: justify;
+  text-align: center;
   color: antiquewhite;
  
 }
@@ -277,10 +260,11 @@ header /*My name and navbar*/
 
 /*=============================================Section with all contact details and form==============================================================*/
 .footer{
-  background: #16191E;
-  margin-top: 5%;  
+   margin-top: 5%;  
   align-items: flex-end;
 }
+
+
 #Contact span {
   color: #FDBB2D;
 } 
@@ -320,6 +304,14 @@ header /*My name and navbar*/
   cursor: pointer;
 }
 
+.grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 7rem;
+  background: orangered;
+}
+
 
 fieldset
 {  font-family:'Source Code Pro', monospace;
@@ -354,17 +346,17 @@ form input, form textarea, form select
   form button
 {   
     display: flex;
-    flex-direction: row;
     padding: 10px 20px;
     margin: 10px;
-    border: 0;
     width: 120px;
     border-radius: 20px;
+    border: 0;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     letter-spacing: 4px;
     color: beige;
     background: #16191E;
+    cursor: pointer;
   }
 
   form button:hover
@@ -373,7 +365,15 @@ form input, form textarea, form select
    border-radius: 20px;
    }
  
-   
+    img
+  {
+    padding-left: 40%;
+    border-radius: 50%;
+    transition: border-radius 500ms ease-in-out;
+    }
 
+   img:hover
+   {
+     border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+   }
 
- 
