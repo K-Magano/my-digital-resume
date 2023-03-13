@@ -1,308 +1,254 @@
-html 
-{
+html {
   scroll-behavior: smooth; /*for better scrolling*/
   scroll-padding-top: 75px;
-  scroll-padding-bottom: 75px ;
-  
+  scroll-padding-bottom: 75px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body
-{
- 
+body {
   text-align: center;
-  background: #16191E;
+  background: #16191e;
 }
 /*===================Section with the navbar, animation and image==================================*/
-.wrapper
-{
-    width: 90%;
-    margin:0 auto;
-    padding-inline: 1rem;
-  
-  }
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
 
- 
-header /*My name and navbar*/
-{
+header /*My name and navbar*/ {
   width: 100%;
   height: 100px;
-  background: #16191E;
+  background: #16191e;
   position: fixed;
   z-index: 1000px;
-
-  
 }
 
-.logo 
-{    
-    width: 30%;
-    float: left;
-    text-align: left;
-    line-height: 100px;/*this helps position the hight of a line drop or pick up a line*/
-  
+.logo {
+  width: 30%;
+  float: left;
+  text-align: left;
+  line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
 }
-    
 
- .logo a 
- {
-   text-decoration: none;
-   font-size: 30px;
-   font-family: 'Source Code Pro', monospace;
-   color: beige;
-   width: 80px;
-   }
-   
- /*for the yellow color change in the header and footer.*/ 
- .logo span
- {
-  color:#FDBB2D;
- }
- 
- nav 
- {
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Source Code Pro", monospace;
+  color: beige;
+  width: 80px;
+}
+
+/*for the yellow color change in the header and footer.*/
+.logo span {
+  color: #fdbb2d;
+}
+
+nav {
   float: right;
   line-height: 100px;
-  
- }
+}
 
- nav a
- {
+nav a {
   text-decoration: none;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 30px;
   letter-spacing: 4px;
-  color:beige;
+  color: beige;
   padding: 15px 10px;
   margin: 0 1px;
-  
- }
-
- nav a:hover
- {
-  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-  border-radius: 20px;
- 
 }
 
- .banner-area{
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    /*background: #16191E;*/
-    background-position: center;
-    background-image: url(https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/117765357_10216368392796540_8435720191695627714_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3ME-tqinkfQAX90XplQ&_nc_ht=scontent-jnb1-1.xx&oh=00_AfAqezkJoRfwNREuQD2bcuM-L0tGOAQgAAwkKK03i2m3YA&oe=64366AFD);
-    background-size: cover;
-    height: 100vh;
-    
-  }
+nav a:hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  border-radius: 20px;
+}
 
-  .menu
-  {
-    margin-top: 5%;
-  }
-  .menu a
-  {text-decoration: none;
-  font-family: 'Caveat', cursive;
+.banner-area {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  /*background: #16191E;*/
+  background-position: center;
+  background-image: url(https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/117765357_10216368392796540_8435720191695627714_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3ME-tqinkfQAX90XplQ&_nc_ht=scontent-jnb1-1.xx&oh=00_AfAqezkJoRfwNREuQD2bcuM-L0tGOAQgAAwkKK03i2m3YA&oe=64366AFD);
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu {
+  margin-top: 5%;
+}
+.menu a {
+  text-decoration: none;
+  font-family: "Caveat", cursive;
   font-size: 40px;
   letter-spacing: 4px;
-  color:beige;
+  color: beige;
   padding: 15px 10px;
-  background: #3A1C71;
-  }
+  background: #3a1c71;
+}
 
-  .menu a:hover
-  {
-   background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-   border-radius: 20px;
-  
- }
+.menu a:hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  border-radius: 20px;
+}
 
+.static-txt {
+  color: #3a1c71;
+  font-family: "Source Code Pro", monospace;
+  font-size: 60px;
+  background: orangered;
+  margin-top: 15%;
+  margin-right: 45%;
+}
 
- .static-txt{
-       
-        color: #3A1C71;
-        font-family:'Source Code Pro', monospace;
-        font-size: 60px;
-        background: orangered;
-        margin-top: 15%;
-        margin-right: 45%;
-       
-        
-    }
-
-   
-    .dynamic-txts{
-      height: 90px;
-      overflow: hidden; /* hides the other words so one word can show at a time*/
-      background: #3A1C71;
-      margin-top: 5%;
-      margin-left: 45%;
-                  
-  }
-  .dynamic-txts li{
-    
-    color:  #FDBB2D;
-    font-family:'Caveat', cursive;
-    font-size: 70px;
-    font-weight: 400;
-    position: relative;
-    top: 0;
-    animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps would make it go up smoothly*/
+.dynamic-txts {
+  height: 90px;
+  overflow: hidden; /* hides the other words so one word can show at a time*/
+  background: #3a1c71;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+.dynamic-txts li {
+  color: #fdbb2d;
+  font-family: "Caveat", cursive;
+  font-size: 70px;
+  font-weight: 400;
+  position: relative;
+  top: 0;
+  animation: slide 4s steps(4) infinite; /*slide makes the words flash, no steps would make it go up smoothly*/
 }
 @keyframes slide {
-
-    100%{
-         top: -360px;
-    }
+  100% {
+    top: -360px;
+  }
 }
 
-.dynamic-txts li span{
-    position: relative;
+.dynamic-txts li span {
+  position: relative;
 }
-
 
 /*==================================Section with the Skills, education and expirence==============================================*/
-.content-area
-{ 
+.content-area {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 1500px;
   position: relative;
-  background: #16191E;
+  background: #16191e;
   top: 250px;
   z-index: -4;
 }
- 
 
-.content-area h2
-
-{ 
-  font-family: 'Source Code Pro', monospace;
+.content-area h2 {
+  font-family: "Source Code Pro", monospace;
   font-size: 30px;
-  background: #3A1C71;
+  background: #3a1c71;
   padding: 20px 30px 20px 10px;
   margin: 0 25px 0 25px;
   border-radius: 20px;
-  
 }
- .content-area h3 
- {
-  font-family: 'Courier New', Courier, monospace;
+.content-area h3 {
+  font-family: "Courier New", Courier, monospace;
   font-size: 30px;
   color: green;
-  padding: 25px ;
-  
- }
+  padding: 25px;
+}
 
-.content-area p
-{ font-family: 'Courier New', Courier, monospace;
+.content-area p {
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   padding: 2% 0;
   line-height: 30px;
   text-align: center;
   color: antiquewhite;
- 
 }
 
-.content-area li
-{ 
+.content-area li {
   margin: 5px;
   color: antiquewhite;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-
 }
 
-
 /*=============================================Section with all contact details and form==============================================================*/
-.footer{
-   margin-top: 5%;  
+.footer {
+  margin-top: 5%;
   align-items: flex-end;
 }
 
-
 #Contact span {
-  color: #FDBB2D;
-} 
+  color: #fdbb2d;
+}
 
- .Twitter, .LinkedIn, .Insta, .Github, .email, .map{
-  margin:  30px; /*Spacing in-between logos*/
+.Twitter,
+.LinkedIn,
+.Insta,
+.Github,
+.email,
+.map {
+  margin: 30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
   color: #ffff;
-  border: 1px solid #FDBB2D;
+  border: 1px solid #fdbb2d;
   border-radius: 50%;
   /* for a smooth up and down hover movement*/
-  transition-duration: 0.3s
- 
-
+  transition-duration: 0.3s;
 }
 
- .social-icons :hover
- {
-  
-  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+.social-icons :hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
   font-weight: bolder;
   border-radius: 50%;
   /* for the icons to move up when hovered over*/
-  transform: translateY(-15px) ;
+  transform: translateY(-15px);
   cursor: pointer;
 }
 
-.contact_me :hover
-
-{
-  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+.contact_me :hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
   font-weight: bolder;
   border-radius: 50%;
   /* for the icons to move up when hovered over*/
-  transform: translateY(-15px) ;
+  transform: translateY(-15px);
   cursor: pointer;
 }
 
-.number{
-
+.number {
   color: bisque;
   font-size: 30px;
   font-family: cursive;
 }
 
-.grid
-{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 7rem;
   background: orangered;
 }
 
-
-fieldset
-{  font-family:'Source Code Pro', monospace;
-   border: #16191E;
-   padding-right: 60%; /*helped center the contact bars in a straight row down*/
-   padding-top: 60px; 
-   
-     
+fieldset {
+  font-family: "Source Code Pro", monospace;
+  border: #16191e;
+  padding-right: 60%; /*helped center the contact bars in a straight row down*/
+  padding-top: 60px;
 }
 
-fieldset h1 
-{   
-    display: inline-block;
-    background: #3A1C71;
-    font-size: 30px;
-    color: beige;
-    padding-right: 50%;
+fieldset h1 {
+  display: inline-block;
+  background: #3a1c71;
+  font-size: 30px;
+  color: beige;
+  padding-right: 50%;
 }
-form input, form textarea, form select
-
-{ 
+form input,
+form textarea,
+form select {
   display: flex;
   align-items: center;
   border: none;
@@ -313,134 +259,129 @@ form input, form textarea, form select
   border-radius: 40px;
 }
 
-  form button
-{   
-    display: flex;
-    padding: 10px 20px;
-    margin: 10px;
-    width: 120px;
-    border-radius: 20px;
-    border: 0;
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
-    letter-spacing: 4px;
-    color: beige;
-    background: #16191E;
-    cursor: pointer;
-  }
+form button {
+  display: flex;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 120px;
+  border-radius: 20px;
+  border: 0;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: beige;
+  background: #16191e;
+  cursor: pointer;
+}
 
-  form button:hover
-  {
-   background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-   border-radius: 20px;
-   }
- 
-    img
-  {
-    padding-left: 40%;
-    border-radius: 50%;
-    transition: border-radius 500ms ease-in-out;
+form button:hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  border-radius: 20px;
+}
+
+img {
+  padding-left: 40%;
+  border-radius: 50%;
+  transition: border-radius 500ms ease-in-out;
+}
+
+img:hover {
+  border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%;
+}
+
+@media screen and (max-width: 425px) {
+
+  .grid
+{
+display: grid;
+grid-template-columns: 50PX;
+background: #16191E;
+
+}
+  .grid h2{
+    background: olive;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5px;
+    
     }
 
-   img:hover
-   {
-     border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+    .logo 
+    {    
+        display: flex;
+        float: left;
+        text-align: left;
+        line-height: 20px;/*this helps position the hight of a line drop or pick up a line*/
+      
+    }
+    .logo a 
+    {
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Source Code Pro', monospace;
+      color: beige;
+      width: 50px;
+      }
+
+      nav 
+      {
+      display: flex;
+      line-height: 30px;
+       
+      }
+     
+      nav a
+      {
+       text-decoration: none;
+       font-family: 'Caveat', cursive;
+       font-size: 20px;
+       letter-spacing: 2px;
+       color:beige;
+       padding: 15px 5px;
+       margin: 0 0px;
+       
+      }
+     
+      nav a:hover
+      {
+       background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+       border-radius: 10px;
+      
+     }
+
+    
+  
+    .menu
+    {
+      margin-top: 15%;
+    }
+    .menu a
+    {text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color:beige;
+    padding: 15px 10px;
+    background: #3A1C71;
+    }
+  
+    .menu a:hover
+    {
+     background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+     border-radius: 20px;
+    
    }
 
-   /*========================medium and large Mobile size============================================*/
-   @media screen and (max-width: 425px) {
-
-    .grid
-{
-  display: grid;
-  grid-template-columns: 50PX;
-  background: #16191E;
-  
-  }
-    .grid h2{
-      background: olive;
-      font-family: 'Source Code Pro', monospace;
-      font-size: 5px;
-      
-      }
-
-      .logo 
-      {    
-          display: flex;
-          float: left;
-          text-align: left;
-          line-height: 20px;/*this helps position the hight of a line drop or pick up a line*/
-        
-      }
-      .logo a 
-      {
-        text-decoration: none;
-        font-size: 20px;
-        font-family: 'Source Code Pro', monospace;
-        color: beige;
-        width: 50px;
-        }
-
-        nav 
-        {
-        display: flex;
-        line-height: 30px;
-         
-        }
-       
-        nav a
-        {
-         text-decoration: none;
-         font-family: 'Caveat', cursive;
-         font-size: 20px;
-         letter-spacing: 2px;
-         color:beige;
-         padding: 15px 5px;
-         margin: 0 0px;
-         
-        }
-       
-        nav a:hover
-        {
-         background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-         border-radius: 10px;
-        
-       }
-
-      
-    
-      .menu
-      {
-        margin-top: 15%;
-      }
-      .menu a
-      {text-decoration: none;
-      font-family: 'Caveat', cursive;
-      font-size: 20px;
-      letter-spacing: 4px;
-      color:beige;
-      padding: 15px 10px;
-      background: #3A1C71;
-      }
-    
-      .menu a:hover
-      {
-       background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-       border-radius: 20px;
-      
-     }
-
+   
+.static-txt{
      
- .static-txt{
-       
-  color: #3A1C71;
-  font-family:'Source Code Pro', monospace;
-  font-size: 5px;
-  background: orangered;
-  margin-top: 80%;
-  margin-right: 0%;
- 
-  
+color: #3A1C71;
+font-family:'Source Code Pro', monospace;
+font-size: 5px;
+background: orangered;
+margin-top: 80%;
+margin-right: 0%;
+
+
 }
 
 .dynamic-txts{
@@ -449,7 +390,7 @@ overflow: hidden; /* hides the other words so one word can show at a time*/
 background: #3A1C71;
 margin-top: 10%;
 margin-left: 0%;
-            
+          
 }
 .dynamic-txts li{
 
@@ -464,119 +405,119 @@ animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps wo
 
 img
 {
-  padding-left: 5%;
-  transition: border-radius 500ms ease-in-out;
-  }
-
- img:hover
- {
-   border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
- }
-
- .number{
-
-  color: bisque;
-  font-size: 20px;
-  font-family: cursive;
-  margin-bottom: 5%;
+padding-left: 5%;
+transition: border-radius 500ms ease-in-out;
 }
 
-  }
-
-  @media screen and (max-width: 320px) {
-
-    .grid
+img:hover
 {
-  display: grid;
-  grid-template-columns: 300PX;
-  background: #16191E;
-  
-  }
-    .grid h2{
-      background: olive;
-      font-family: 'Source Code Pro', monospace;
-      font-size: 20px;
-      
-      }
+ border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+}
 
-      .logo 
-      {    
-          display: flex;
-          width: 20%;
-          float: left;
-          text-align: left;
-          line-height: 20px;/*this helps position the hight of a line drop or pick up a line*/
-        
-      }
-      .logo a 
-      {
-        text-decoration: none;
-        font-size: 20px;
-        font-family: 'Source Code Pro', monospace;
-        color: beige;
-        width: 80px;
-        }
+.number{
 
-        nav 
-        {
+color: bisque;
+font-size: 20px;
+font-family: cursive;
+margin-bottom: 5%;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .grid
+{
+display: grid;
+grid-template-columns: 300PX;
+background: #16191E;
+
+}
+  .grid h2{
+    background: olive;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    
+    }
+
+    .logo 
+    {    
         display: flex;
-        line-height: 30px;
-         
-        }
-       
-        nav a
-        {
-         text-decoration: none;
-         font-family: 'Caveat', cursive;
-         font-size: 20px;
-         letter-spacing: 2px;
-         color:beige;
-         padding: 15px 5px;
-         margin: 0 0px;
-         
-        }
-       
-        nav a:hover
-        {
-         background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-         border-radius: 10px;
-        
-       }
-
+        width: 20%;
+        float: left;
+        text-align: left;
+        line-height: 20px;/*this helps position the hight of a line drop or pick up a line*/
       
-    
-      .menu
-      {
-        margin-top: 15%;
-      }
-      .menu a
-      {text-decoration: none;
-      font-family: 'Caveat', cursive;
+    }
+    .logo a 
+    {
+      text-decoration: none;
       font-size: 20px;
-      letter-spacing: 4px;
-      color:beige;
-      padding: 15px 10px;
-      background: #3A1C71;
+      font-family: 'Source Code Pro', monospace;
+      color: beige;
+      width: 80px;
       }
-    
-      .menu a:hover
+
+      nav 
+      {
+      display: flex;
+      line-height: 30px;
+       
+      }
+     
+      nav a
+      {
+       text-decoration: none;
+       font-family: 'Caveat', cursive;
+       font-size: 20px;
+       letter-spacing: 2px;
+       color:beige;
+       padding: 15px 5px;
+       margin: 0 0px;
+       
+      }
+     
+      nav a:hover
       {
        background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
-       border-radius: 20px;
+       border-radius: 10px;
       
      }
 
-     
- .static-txt{
-       
-  color: #3A1C71;
-  font-family:'Source Code Pro', monospace;
-  font-size: 30px;
-  background: orangered;
-  margin-top: 80%;
-  margin-right: 0%;
- 
+    
   
+    .menu
+    {
+      margin-top: 15%;
+    }
+    .menu a
+    {text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color:beige;
+    padding: 15px 10px;
+    background: #3A1C71;
+    }
+  
+    .menu a:hover
+    {
+     background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+     border-radius: 20px;
+    
+   }
+
+   
+.static-txt{
+     
+color: #3A1C71;
+font-family:'Source Code Pro', monospace;
+font-size: 30px;
+background: orangered;
+margin-top: 80%;
+margin-right: 0%;
+
+
 }
 
 .dynamic-txts{
@@ -585,7 +526,7 @@ overflow: hidden; /* hides the other words so one word can show at a time*/
 background: #3A1C71;
 margin-top: 10%;
 margin-left: 0%;
-            
+          
 }
 .dynamic-txts li{
 
@@ -600,21 +541,26 @@ animation: slide 4s steps(4) infinite;/*slide makes the words flash, no steps wo
 
 img
 {
-  padding-left: 5%;
-  transition: border-radius 500ms ease-in-out;
-  }
-
- img:hover
- {
-   border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
- }
-
- .number{
-
-  color: bisque;
-  font-size: 20px;
-  font-family: cursive;
-  margin-bottom: 5%;
+padding-left: 5%;
+transition: border-radius 500ms ease-in-out;
 }
 
-  }
+img:hover
+{
+ border-radius:0% 100% 0% 100% / 57% 52% 48% 43%;
+}
+
+.number{
+
+color: bisque;
+font-size: 20px;
+font-family: cursive;
+margin-bottom: 5%;
+}
+
+}
+/*========================medium and large Mobile size============================================*/
+@media screen and (max-width: 425px)
+{
+  
+}
