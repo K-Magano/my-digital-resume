@@ -299,4 +299,68 @@ img:hover {
   border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%; /* used fancy radius generator*/
 }
 
-  
+ /*==========Tablet Sizes========*/
+@media screen and (max-width:768px)
+{  
+  .grid { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: orangered;
+  }
+ 
+  .logo {
+    display: flex;
+    width: 20%;
+    float: left;
+    text-align: left;
+    line-height: 30px; /*this helps position the hight of a line drop or pick up a line*/
+  }
+  .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Source Code Pro", monospace;
+    color: beige;
+    width: 80px;
+  }
+
+  nav {
+   float: right;
+   line-height: 100px;
+   
+ }
+  nav a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    color: beige;
+    margin: 0%;
+    padding: 0%;
+    
+  }
+
+  .menu {
+    margin-top: 8%;
+  }
+  .menu a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: beige;
+    padding: 3px 3px;
+    background: #3a1c71;
+  }
+
+
+  .static-txt {
+    color: #3a1c71;
+    font-family: "Source Code Pro", monospace;
+    font-size: 35px;
+    background: orangered;
+    padding: 3%;
+    margin-top: 30%;
+    margin-right: 0%; /*Keeps words in a horizontal line*/
+  }
+
+  }
