@@ -159,13 +159,13 @@ nav a:hover {
   padding: 25px;
 }
 
-/*=====oddly code isn't linked*/
-h3 a{
+/*=====oddly codeh3 a :active{
   cursor: pointer;
   text-decoration: none;
   font-style: italic;
-  color: #fdbb2d;
-}
+  color: #fdbb2d; isn't linked*/
+
+
 .content-area p {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
@@ -234,7 +234,7 @@ h3 a{
 
 .grid {
   display: grid;
-  grid-template-columns:300px;
+  grid-template-columns: 100px 100px 100px;
   column-gap: 7rem;
   background: orangered;
 }
@@ -591,8 +591,7 @@ img:hover {
 {
   .grid {
    display: grid;
-   grid-column: 300px;
-   column-gap: 2px;
+   grid-template-columns: 100px 100px 100px;
    background: orangered;
 
    }
