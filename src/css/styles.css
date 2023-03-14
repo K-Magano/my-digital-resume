@@ -285,7 +285,7 @@ img:hover {
 }
 
 /*================Small screens====================*/
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .grid {
     display: grid;
     grid-template-columns: 300px;
@@ -516,66 +516,66 @@ img:hover {
 
   /*==========Tablet Sizes========*/
 
-@media screen and (min-width:768px)
-{
-  .grid {
-   display: flex;
-   flex-direction: column;
-   background: orangered;
-
-   }
-   .grid h2 {
-    background: olive;
-    font-family: "Source Code Pro", monospace;
-    font-size: 22px;
-    padding: 5%;
-  }
-
-  .logo {
-    display: flex;
-    width: 20%;
-    float: left;
-    text-align: left;
-    line-height: 30px; /*this helps position the hight of a line drop or pick up a line*/
-  }
-  .logo a {
-    text-decoration: none;
-    font-size: 30px;
-    font-family: "Source Code Pro", monospace;
-    color: beige;
-    width: 80px;
-  }
-
-
-  nav a {
-    text-decoration: none;
-    font-family: "Caveat", cursive;
-    font-size: 25px;
-    letter-spacing: 3px;
-    color: beige;
-    padding: 15px 5px;
-    margin: 0 0px;
-  }
-
-  .menu a {
-    text-decoration: none;
-    font-family: "Caveat", cursive;
-    font-size: 30px;
-    letter-spacing: 4px;
-    color: beige;
-    padding: 10px 10px;
-    background: #3a1c71;
-  }
-
-
-  .static-txt {
-    color: #3a1c71;
-    font-family: "Source Code Pro", monospace;
-    font-size: 35px;
-    background: orangered;
-    margin-top: 20%;
-    margin-right: 0%; /*Keeps words in a horizontal line*/
-  }
-
-
-  }
+  @media screen and (min-width:768px)
+  {
+    .grid {
+     display: flex;
+     flex-direction: column;
+     background: orangered;
+  
+     }
+     .grid h2 {
+      background: olive;
+      font-family: "Source Code Pro", monospace;
+      font-size: 22px;
+      padding: 5%;
+    }
+  
+    .logo {
+      display: flex;
+      width: 20%;
+      float: left;
+      text-align: left;
+      line-height: 30px; /*this helps position the hight of a line drop or pick up a line*/
+    }
+    .logo a {
+      text-decoration: none;
+      font-size: 30px;
+      font-family: "Source Code Pro", monospace;
+      color: beige;
+      width: 80px;
+    }
+  
+  
+    nav a {
+      text-decoration: none;
+      font-family: "Caveat", cursive;
+      font-size: 25px;
+      letter-spacing: 3px;
+      color: beige;
+      padding: 15px 5px;
+      margin: 0 0px;
+    }
+  
+    .menu a {
+      text-decoration: none;
+      font-family: "Caveat", cursive;
+      font-size: 30px;
+      letter-spacing: 4px;
+      color: beige;
+      padding: 10px 10px;
+      background: #3a1c71;
+    }
+  
+  
+    .static-txt {
+      color: #3a1c71;
+      font-family: "Source Code Pro", monospace;
+      font-size: 35px;
+      background: orangered;
+      margin-top: 20%;
+      margin-right: 0%; /*Keeps words in a horizontal line*/
+    }
+  
+    }
+  
