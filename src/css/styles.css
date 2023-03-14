@@ -445,9 +445,9 @@ img:hover {
     text-decoration: none;
     font-family: "Caveat", cursive;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: beige;
-    padding: 5px 5px;
+    padding: 1px 1px;
     margin: 0 0px;
   }
 
@@ -569,7 +569,7 @@ img:hover {
       font-size: 30px;
       letter-spacing: 4px;
       color: beige;
-      padding: 10px 10px;
+      padding: 3px 3px;
       background: #3a1c71;
     }
   
