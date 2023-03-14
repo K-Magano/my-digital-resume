@@ -585,9 +585,9 @@ img:hover {
   
     }
   
-/*==========Tablet Sizes========*/
+/*==========laptop Sizes========*/
 
-@media screen and (max-width:1024px)
+@media screen and (min-width:1024px)
 {
   .grid {
    display: grid;
@@ -605,10 +605,11 @@ img:hover {
 
   .logo {
     display: flex;
-    width: 20%;
+    flex-direction: column;
+    width: 10%;
     float: left;
     text-align: left;
-    line-height: 30px; /*this helps position the hight of a line drop or pick up a line*/
+    line-height: 40px; /*this helps position the hight of a line drop or pick up a line*/
   }
   .logo a {
     text-decoration: none;
@@ -622,26 +623,43 @@ img:hover {
   nav a {
     text-decoration: none;
     font-family: "Caveat", cursive;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 4px;
-    line-height: 65px;
+    line-height: 100px;
     color: beige;
     padding: 5px 5px;
-    margin: 0 0px;
+   
   }
-
+ 
   .menu {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
-
+  .menu a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: beige;
+    padding: 15px 15px;
+    background: #3a1c71;
+  }
   .static-txt {
     color: #3a1c71;
     font-family: "Source Code Pro", monospace;
-    font-size: 35px;
+    font-size: 40px;
     background: orangered;
-    margin-top: 20%;
-    margin-right: 0%; /*Keeps words in a horizontal line*/
+    margin-top: 15%;
+    margin-right: 50%; /*Keeps words in a horizontal line*/
+    
+  }
+  .dynamic-txts {
+    height: 90px;
+    overflow: hidden; /* hides the other words so one word can show at a time*/
+    background: #3a1c71;
+    margin-top: 5%;
+    margin-left: 45%;
+  }
   }
 
-  }
+
