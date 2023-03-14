@@ -32,7 +32,7 @@ header /*My name and navbar*/ {
   width: 30%;
   float: left;
   text-align: left;
-  line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
+  line-height: 150px; /*this helps position the hight of a line drop or pick up a line*/
 }
 
 .logo a {
@@ -234,11 +234,17 @@ h3 a{
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns:300px;
   column-gap: 7rem;
   background: orangered;
 }
 
+.grid h2 {
+  background: olive;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  padding: 10px;
+}
 fieldset {
   border: #16191e;
  
@@ -516,7 +522,7 @@ img:hover {
 
   /*==========Tablet Sizes========*/
 
-  @media screen and (min-width:768px)
+  @media screen and (max-width:768px)
   {
     .grid {
      display: flex;
@@ -579,3 +585,63 @@ img:hover {
   
     }
   
+/*==========Tablet Sizes========*/
+
+@media screen and (max-width:1024px)
+{
+  .grid {
+   display: grid;
+   grid-column: 300px;
+   column-gap: 2px;
+   background: orangered;
+
+   }
+   .grid h2 {
+    background: olive;
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    padding: 5%;
+  }
+
+  .logo {
+    display: flex;
+    width: 20%;
+    float: left;
+    text-align: left;
+    line-height: 30px; /*this helps position the hight of a line drop or pick up a line*/
+  }
+  .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Source Code Pro", monospace;
+    color: beige;
+    width: 80px;
+  }
+
+
+  nav a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    letter-spacing: 4px;
+    line-height: 65px;
+    color: beige;
+    padding: 5px 5px;
+    margin: 0 0px;
+  }
+
+  .menu {
+    margin-top: 10%;
+  }
+
+
+  .static-txt {
+    color: #3a1c71;
+    font-family: "Source Code Pro", monospace;
+    font-size: 35px;
+    background: orangered;
+    margin-top: 20%;
+    margin-right: 0%; /*Keeps words in a horizontal line*/
+  }
+
+  }
