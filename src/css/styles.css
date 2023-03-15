@@ -106,14 +106,14 @@ nav a:hover {
   margin-right: 45%;
 }
 
-.dynamic-txts {
+.animation-side {
   height: 90px;
   overflow: hidden; /* hides the other words so one word can show at a time*/
   background: #3a1c71;
   margin-top: 5%;
   margin-left: 45%;
 }
-.dynamic-txts li {
+.animation-side li {
   color: #fdbb2d;
   font-family: "Caveat", cursive;
   font-size: 70px;
@@ -132,7 +132,7 @@ nav a:hover {
   position: relative;
 }
 
-/*==================================Section with the Skills, education and expirence==============================================*/
+/*==================================Section with the Skills, education and experience==============================================*/
 .content-area {
   display: flex;
   flex-direction: column;
