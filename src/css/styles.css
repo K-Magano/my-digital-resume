@@ -161,21 +161,28 @@ nav a:hover {
   color: green;
   padding: 25px;
 }
+ .content-area h4
+ {
+    font-family: cursive;
+    font-size: 20px;
+    color: bisque;
+ }
+ 
 
-.content-area p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
-  padding: 2% 0;
-  line-height: 30px;
-  text-align: center;
-  color: antiquewhite;
+
+.content-area a
+{  
+  color: #fdbb2d;
+  cursor: pointer;
+  text-decoration: none;
 }
-
 .content-area li {
   margin: 5px;
   color: antiquewhite;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  text-align: center;
+  margin: 1%;
 }
 
 /*=============================================Section with all contact details and form==============================================================*/
