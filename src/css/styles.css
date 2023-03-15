@@ -196,6 +196,16 @@ nav a:hover {
   margin: 0 6% 0 6%;
   border-radius: 20px;
 }
+
+.footer .gmail, .location, .call /*-------made additional classes in order to control css*/
+{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: center;
+  color: antiquewhite;
+}
 #Contact span {
   color: #fdbb2d;
 }
@@ -204,8 +214,9 @@ nav a:hover {
 .LinkedIn,
 .Insta,
 .Github,
+.map,
 .email,
-.map {
+.number {
   margin: 30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
@@ -225,7 +236,16 @@ nav a:hover {
   cursor: pointer;
 }
 
-.contact_me :hover {
+.email:hover {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  font-weight: bolder;
+  border-radius: 50%;
+  /* for the icons to move up when hovered over*/
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+
+.map:hover {
   background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
   font-weight: bolder;
   border-radius: 50%;
