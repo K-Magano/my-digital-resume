@@ -365,16 +365,13 @@ img:hover {
 
   }
 
-  /*==========mid and large screens========*/
+  /*==========mid========*/
 
 @media screen and (max-width:425px)
 {
  .grid {
-   display: grid;
-   grid-template-columns: 100px 100px 100px;
-   grid-column-gap: 40px;
-   padding-right: 90%;
-   background: red;
+   display: flex;
+   background: orangered;
 
  }
  .grid h2 {
@@ -385,24 +382,27 @@ img:hover {
  }
 
  .logo {
-   display: flex;
-   width: 20%;
-   float: left;
-   text-align: left;
-   line-height: 20px; /*this helps position the hight of a line drop or pick up a line*/
- }
- .logo a {
-   text-decoration: none;
-   font-size: 20px;
-   font-family: "Source Code Pro", monospace;
-   color: beige;
-   width: 80px;
- }
+  
+  width: 20%;
+  float: left;
+  text-align: left;
+  line-height: 50px; /*this helps position the hight of a line drop or pick up a line*/
+}
+.logo a {
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Source Code Pro", monospace;
+  color: beige;
+  width: 80px;
+}
 
- nav {
+nav {
    display: flex;
-   line-height: 10px;
+   flex-direction: row;
+   line-height: 30px;
    padding-right: 5%;
+      
  }
 
  nav a {
@@ -411,8 +411,8 @@ img:hover {
    font-size: 20px;
    letter-spacing: 3px;
    color: beige;
-   padding: 1px 1px;
-   margin: 0 0px;
+   margin-right: 2px;
+   
  }
 
  nav a:hover {
