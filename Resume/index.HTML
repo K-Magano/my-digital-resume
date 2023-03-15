@@ -27,7 +27,7 @@
 <body>
 
 
-        <!--The big black section of the page with the animation and pictures-->
+<!--Top/landing section with hero image and animation-->
   <div class="banner-area">
       
       <div class="static-txt">Keo Magano is a...</div>
@@ -38,47 +38,47 @@
                   <li>Podcaster</li>
                   <li>Broadcaster</li>
               </ul>
-
-          
-          
+    
         <div class="menu"> <a href="#content-area">Menu</a></div>
             
           </div>
             </div>
 
-            <header> 
-              <div class="wrapper">
-                  <div class="logo">
-                      <a href="#"><span>K</span>eo <span>M</span>agano's<span> R</span>esumé</a>
-                    </div>
+            <!--Black bar with Navigator and logo name (Keo Magano's Resume)-->
+   <header> 
+      <div class="wrapper">
+          <div class="logo">
+              <a href="#"><span>K</span>eo <span>M</span>agano's<span> R</span>esumé</a>
+          </div>
     
-                    <!--menu-->
-                    <nav>
-                        <a href="#Education">Education</a>
-                        <a href="#Experience">Experience</a>
-                        <a href="#Skills">Skills</a>
-                        <a href="#Contact">Contact</a>
-                    </nav>
-                    </div>
-          </header>
+      <!--menu side of the header float left-->
+            <nav>
+              <a href="#Education">Education</a>
+              <a href="#Experience">Experience</a>
+              <a href="#Skills">Skills</a>
+              <a href="#Contact">Contact</a>
+            </nav>
+              </div>
+    </header>
             
-   <!--section with all the Resume content-->
+   <!--section with Body content (Education, Experience, Skills and Social icons) content-->
 
 <div class="content-area" id="content-area">
 
-  <h2 id="Education">Education</h2>
-   <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a></h3>
-   <p>Web development: Developing websites, web applications, and e-commerce platforms. </p>
+   <h2 id="Education">Education</h2>
+      
+      <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a></h3>
+          <p>Web development: Developing websites, web applications, and e-commerce platforms. </p>
 
-   <h3>Communication Science</h3>
-   
-     <p>Communication Science graduate from the <i>University of the Free State,</i>
-       majoring in Media studies and Journalism.
-     </p>
+      <h3>Communication Science</h3>
+          <p>Communication Science graduate from the 
+            <i>University of the Free State,</i>
+             majoring in Media studies and Journalism.
+         </p>
  
- <h2 id="Experience">Experience</h2>
+  <h2 id="Experience">Experience</h2>
  
-   <h3>Job 1</h3>
+      <h3>Job 1</h3>
      
        <li>A sentence about the responsibilities of the job</li>
        <li> A sentence about the responsibilities of the job</li>
@@ -113,16 +113,18 @@
   <!--end of div for content area -->
      
       
-  <!--Contact me section which includes the form and social media icons-->
-      <div class="footer">
-        <h2 id="Contact"><span>C</span>ontact <span>D</span>etails</span></h2>
+  <!--Footer with Contact Details (email and phone number), profile picture, exit statement, contact form-->
+  <div class="footer">
+    
+     <h2 id="Contact"><span>C</span>ontact <span>D</span>etails</span></h2>
 
-               <!--contact form-->
+       <!--contact form-->
       
      <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
                      
       <a href="mailto:maganokeo@gmail.com" target="_blank" class="email"><i  class="fa fa-envelope-o" aria-hidden="true"></i></a>
         <span class="gmail">maganokeo@gmail.com</span>
+                                                       <!--Link with Location-->
       <a href="https://www.google.com/maps/place/Royal+Marang+Hotel/@-25.5428764,27.122707,17z/data=!3m1!4b1!4m9!3m8!1s0x1ebddf21ca720cb7:0xc00487602be4ba7!5m2!4m1!1i2!8m2!3d-25.5428764!4d27.1248957!16s%2Fg%2F1vmvz0t4" target="_blank" class="map">
         <i class="fa fa-map-marker" aria-hidden="true"></i></a> 
           <span class="location">Phokeng </span>
@@ -131,18 +133,17 @@
         <div class="number">
           <i  class="fa fa-mobile" aria-hidden="true"></i> 
         </div>
-         <span class="call">072 146 9441</span>
+         <span class="call">072 146 9441</span>  <!--Used <Span> so that the words could be inline with the icon-->
 
-<!--the section with my picture in the footer section-->
+<!--Orange of the footer-->
           
-      <div class="grid">
+      <div class="grid"> <!--Used grid for three blocks-->
        
-        <fieldset>
+        <fieldset> <!--Form-->
           <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
             
             <h2> GET IN TOUCH</h2>
-            <br>
-             
+      
                <input type="Name" name="name"  placeholder="Full Name" required> </input>
            
                <input type="email" name="email" placeholder="Email Address" required>
@@ -166,7 +167,7 @@
           </form>
           </fieldset>    
 
-          
+          <!--Animated profile picture-->
   <div class="picture" >
     <picture>
       <source srcset="..\src\images\keomagano_small.jpg" media="(max-width: 400px)">
@@ -175,7 +176,8 @@
     </picture>
   </div>
 
-    <div class="intro">
+<!--Exit text with inline styling-->
+    <div>
 
       <h2> Hello and Thank you. </h2>
         
@@ -183,8 +185,9 @@
           Thank you for taking the time to go through my resumé.
           I hope you are impressed. 
           Feel free to leave a comment in the <b style="color: #16191e;">form</b> or by <b style="color: #16191e;">clicking directly on my email icon.</b>
-          Your feedback is appreciated. </p>
-      </div>
+          Your feedback is appreciated. 
+      </p>
+    </div>
       
 </div>
 </div>

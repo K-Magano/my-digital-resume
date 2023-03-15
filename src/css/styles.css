@@ -23,7 +23,7 @@ body {
 header /*My name and navbar*/ {
   width: 100%;
   height: 100px;
-  background: pink;
+  background: #16191e;
   position: sticky;
   top:0;
   z-index: 1;
