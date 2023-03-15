@@ -334,6 +334,21 @@ img:hover {
 
 
 /*===========================@MEDIA  STARTS HERE (TABLET, MID AND MIN SCREENS==============================*/
+ 
+ /*====================LAPTOP 1024PX======================*/
+ @media screen and (max-width:1024px)
+
+ {
+  
+    .logo { /*Keo Magano's resume*/
+      width: 40%;
+      float: left;
+      text-align: left;
+      line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
+    }
+    
+  }
+ 
 
  /*==========Tablet Sizes========*/
 @media screen and (max-width:768px)
@@ -521,14 +536,14 @@ nav {
  }
 
 
- .dynamic-txts {
+ .animation-text {
    height: 90px;
    overflow: hidden;
    background: #3a1c71;
    margin-top: 10%;
    margin-left: 0%;
  }
- .dynamic-txts li {
+ .animation-text li {
    color: #fdbb2d;
    font-family: "Caveat", cursive;
    font-size: 70px;
@@ -554,4 +569,39 @@ nav {
    margin-bottom: 5%;
  }
 
+}
+
+/*==========MOBILE S 320PX========*/
+
+@media screen and (max-width:320px)
+{
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 2450px;
+    margin-bottom: 20%;
+    position: relative;
+    background: #16191e;
+    top: 80px;}
+
+    .footer .gmail, .location, .call /*-------made additional classes in order to control css*/
+    {
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 20px;
+      align-items: center;
+      line-height: 30px;
+      color: antiquewhite;
+      margin-left: 25%;}
+
+      .animation-text {
+        height: 90px;
+        overflow: hidden; /* hides the other words so one word can show at a time*/
+        background: #3a1c71;
+        margin-top: 10%;
+             }
+      
+    
+      
 }
