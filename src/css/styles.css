@@ -262,9 +262,10 @@ nav a:hover {
 
 .grid { 
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  column-gap: 10%;
-  padding: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3%;
+  padding: 2%;
+  place-items: left;
   background: orangered;
 }
 
@@ -313,6 +314,7 @@ img {
   padding-left: 40%;
   border-radius: 50%;
   transition: border-radius 500ms ease-in-out;
+  background: #fdbb2d;
 }
 
 img:hover {

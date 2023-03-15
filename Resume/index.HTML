@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
 <!--Google font for flashing words Font Family:'Caveat', cursive;-->
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet"><!--font-family: 'Noto Serif TC', serif;--> 
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet"> 
  
  <!--Font for headers "Code Pro" font-family: 'Source Code Pro', monospace;-->
  <style>
@@ -107,45 +107,71 @@
       <div class="footer">
         <h2 id="Contact"><span>C</span>ontact <span>D</span>etails</span></h2>
 
-        <div class="social-icons"> 
-          <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" class="LinkedIn" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/VillagePrincezz" class="Twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/keo_magano/" class="Insta" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://github.com/K-Magano" class="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </div>
-        <!--contact form-->
+               <!--contact form-->
       
      <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
-       
-       
-      <h2 > GET IN TOUCH</h2>
-  
-           
+                     
       <a href="mailto:maganokeo@gmail.com" target="_blank" class="email"><i  class="fa fa-envelope-o" aria-hidden="true"></i></a>
         <span class="gmail">maganokeo@gmail.com</span>
       <a href="https://www.google.com/maps/place/Royal+Marang+Hotel/@-25.5428764,27.122707,17z/data=!3m1!4b1!4m9!3m8!1s0x1ebddf21ca720cb7:0xc00487602be4ba7!5m2!4m1!1i2!8m2!3d-25.5428764!4d27.1248957!16s%2Fg%2F1vmvz0t4" target="_blank" class="map">
         <i class="fa fa-map-marker" aria-hidden="true"></i></a> 
           <span class="location">Phokeng </span>
         
-        
+                  
         <div class="number">
           <i  class="fa fa-mobile" aria-hidden="true"></i> 
         </div>
          <span class="call">072 146 9441</span>
 
-         <!--the section with my picture in the footer section-->
-          
-         <div class="grid">
-        <div class="picture" >
-          <picture>
-            <source srcset="..\src\images\keomagano_small.jpg" media="(max-width: 400px)">
-            <source srcset="..\src\images\keomagano_mid.jpg" media="(max-width: 900px)">
-            <img src="..\src\images\keomagano_Big.jpg" alt="Profile picture of K.Magano"  width="250" height="250" style="color: beige;" >
-          </picture>
+         <div class="social-icons"> 
+          <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" class="LinkedIn" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/VillagePrincezz" class="Twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/keo_magano/" class="Insta" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://github.com/K-Magano" class="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
         </div>
+<!--the section with my picture in the footer section-->
           
+      <div class="grid">
+       
+        <fieldset>
+          <form action="https://formsubmit.co/maganokeo@gmail.com"  method="POST" target="_blank">
+            
+            <h2> GET IN TOUCH</h2>
+            <br>
+             
+               <input type="Name" name="name"  placeholder="Full Name" required> </input>
+           
+               <input type="email" name="email" placeholder="Email Address" required>
+    
+               <input type="phone number" name="phone number" placeholder="Phone Number"></input>
+           
+          
+          <div>
+          <select name="_subject" id="subject">
+             <option value=" ">Reason for contact</option>
+             <option value="Interview Opportunity">Interview Opportunity</option>
+             <option value="Recruiter">Recruiter</option>
+             <option value="Resume feedback">Resume feedback</option>
+          </select> </div>
+    
+          <br> 
+          
+          <textarea id="text" name="message" rows="3" cols="30" placeholder="Your message."></textarea>
+                 
+            <button type="submit" class="submit">SEND</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank_you_page.html"> <!---Created a thank you page-->
+          </form>
+          </fieldset>    
 
-<!--input field starts here-->
+          
+  <div class="picture" >
+    <picture>
+      <source srcset="..\src\images\keomagano_small.jpg" media="(max-width: 400px)">
+      <source srcset="..\src\images\keomagano_mid.jpg" media="(max-width: 900px)">
+      <img src="..\src\images\keomagano_Big.jpg" alt="Profile picture of K.Magano"  width="250" height="250" style="color: beige;" >
+    </picture>
+  </div>
+
     <div class="intro">
 
       <h2> Hello and Thank you. </h2>
@@ -156,35 +182,9 @@
           Feel free to leave a comment in the <b style="color: #16191e;">form</b> or by <b style="color: #16191e;">clicking directly on my email icon.</b>
           Your feedback is appreciated. </p>
       </div>
-
-    <div class="form">
-        <fieldset>
-        
-          <input type="Name" name="name"  placeholder="Full Name" required> </input>
-          <input type="email" name="email" placeholder="Email Address" required>
-          <input type="phone number" name="phone number" placeholder="Phone Number"></input>
-      
-     
-     <div> <!--Drop down menu-->
-     <select name="_subject" id="subject">
-        <option value=" ">Reason for contact</option>
-        <option value="Interview Opportunity">Interview Opportunity</option>
-        <option value="Recruiter">Recruiter</option>
-        <option value="Resume feedback">Resume feedback</option>
-     </select>
-     </div>
-
-   <textarea id="text" name="message" rows="3" cols="30" placeholder="Your message."></textarea>
-            
-       <button type="submit" class="submit">Send</button>
-       <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank_you_page.html">
-    </form>
-      </fieldset>
-    </div>   
-
+  
 </div>
-
-        </div>
+</div>
  
 </body>
 </html>
