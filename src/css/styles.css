@@ -23,9 +23,11 @@ body {
 header /*My name and navbar*/ {
   width: 100%;
   height: 100px;
-  background: #16191e;
-  position: fixed;
-  z-index: 1000px;
+  background: pink;
+  position: sticky;
+  top:0;
+  z-index: 1;
+
 }
 
 .logo {
@@ -51,6 +53,7 @@ header /*My name and navbar*/ {
 nav {
   float: right;
   line-height: 100px;
+ 
 }
 
 nav a {
@@ -61,6 +64,7 @@ nav a {
   color: beige;
   padding: 15px 10px;
   margin: 0 1px;
+
 }
 
 nav a:hover {
@@ -133,16 +137,22 @@ nav a:hover {
 }
 
 /*==================================Section with the Skills, education and experience==============================================*/
+
+
 .content-area {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1500px;
+  height: 1400px;
+  margin-bottom: 20%;
   position: relative;
   background: #16191e;
   top: 250px;
-  z-index: -4;
-}
+ ;
+  
+ }
+
+ 
 
 .content-area h2 {
   font-family: "Source Code Pro", monospace;
@@ -186,6 +196,7 @@ nav a:hover {
 .footer {
   margin-top: 5%;
   align-items: flex-end;
+  
 }
 
 .footer h2 {
@@ -195,6 +206,7 @@ nav a:hover {
   padding: 20px 5px 20px 5px;
   margin: 0 6% 0 6%;
   border-radius: 20px;
+  
 }
 
 .footer .gmail, .location, .call /*-------made additional classes in order to control css*/
@@ -275,6 +287,16 @@ nav a:hover {
   font-size: 20px;
   padding: 10px;
 }
+
+.grid p{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: center;
+  color: antiquewhite;
+}
+
 fieldset {
   border: #16191e;
  
