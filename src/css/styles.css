@@ -138,7 +138,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1400px;
+  height: 1700px;
   margin-bottom: 20%;
   position: relative;
   background: #16191e;
@@ -186,13 +186,13 @@ nav a:hover {
 }
 
 /*=============================================Section with all contact details and form==============================================================*/
-.footer {
+footer {
   margin-top: 5%;
   align-items: flex-end;
   
 }
 
-.footer h2 {
+footer h2 {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   background: #3a1c71;
