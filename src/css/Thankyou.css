@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+
+}
+
+
+h1
+{
+    font-family:cursive;
+    color: beige
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: #fdbb2d;
+}
