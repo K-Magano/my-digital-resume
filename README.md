@@ -7,14 +7,19 @@ Languages used:
 
 Figma wireframe link: https://www.figma.com/file/eo5v0yOlpooyyxTz7bZUGO/Digital-Resume-WireFrame.?node-id=0%3A1&t=zdUFMkLz0buuSyhE-1
 
-Description: Working on my final capstone for Intro to web, Resume 9: Digital Resumé.
+Description: 
+
+             Working on my final capstone for Intro to web, Resume 9: Digital Resumé.
+
              An online web responsive portfolio/Resume using HTML and CSS.
              Basic understanding of Git and GitHub, links, grid layout and CSS Box Model and positioning.
              Adding submission forms 
              
               
 
- Resources: LMS
+ Resources: 
+ 
+            LMS
             Google fonts for different fonts.
             Awesome Fonts for icons 
             Color Space for color Palettes and color Generator. 
