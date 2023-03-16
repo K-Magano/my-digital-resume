@@ -25,19 +25,20 @@ header /*My name and navbar*/ {
   height: 100px;
   background: #16191e;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1;
-
 }
 
-.logo { /*Keo Magano's resume*/
+.logo {
+  /*Keo Magano's resume*/
   width: 30%;
   float: left;
   text-align: left;
   line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
 }
 
-.logo a { /*Links back to hero image*/
+.logo a {
+  /*Links back to hero image*/
   text-decoration: none;
   font-size: 30px;
   font-family: "Source Code Pro", monospace;
@@ -53,7 +54,7 @@ header /*My name and navbar*/ {
 nav {
   float: right;
   line-height: 100px;
- 
+  background-color: #fdbb2d;
 }
 
 nav a {
@@ -64,7 +65,6 @@ nav a {
   color: beige;
   padding: 15px 10px;
   margin: 0 1px;
-
 }
 
 nav a:hover {
@@ -72,7 +72,8 @@ nav a:hover {
   border-radius: 20px;
 }
 
-.banner-area { /*landing page with hero image and menu tab*/
+.banner-area {
+  /*landing page with hero image and menu tab*/
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -85,7 +86,8 @@ nav a:hover {
 .menu {
   margin-top: 5%;
 }
-.menu a { /*Menu link that leads to the body*/
+.menu a {
+  /*Menu link that leads to the body*/
   text-decoration: none;
   font-family: "Caveat", cursive;
   font-size: 40px;
@@ -126,13 +128,13 @@ nav a:hover {
   animation: slide 4s steps(4) infinite; /*slide makes the words flash, no steps would make it go up smoothly*/
 }
 @keyframes slide {
-  100% {  /*helps the animation move upwards */
+  100% {
+    /*helps the animation move upwards */
     top: -360px;
   }
 }
 
 /*==================================Section with the Skills, education and experience==============================================*/
-
 
 .content-area {
   display: flex;
@@ -143,9 +145,7 @@ nav a:hover {
   position: relative;
   background: #16191e;
   top: 100px;
-   
- }
- 
+}
 
 .content-area h2 {
   font-family: "Source Code Pro", monospace;
@@ -161,17 +161,13 @@ nav a:hover {
   color: green;
   padding: 25px;
 }
- .content-area h4
- {
-    font-family: cursive;
-    font-size: 20px;
-    color: bisque;
- }
- 
+.content-area h4 {
+  font-family: cursive;
+  font-size: 20px;
+  color: bisque;
+}
 
-
-.content-area a
-{  
+.content-area a {
   color: #fdbb2d;
   cursor: pointer;
   text-decoration: none;
@@ -189,7 +185,6 @@ nav a:hover {
 footer {
   margin-top: 5%;
   align-items: flex-end;
-  
 }
 
 footer h2 {
@@ -199,15 +194,11 @@ footer h2 {
   padding: 20px 5px 20px 5px;
   margin: 0 6% 0 6%;
   border-radius: 20px;
-  
 }
 
-.footer .gmail, .location, .call /*-------made additional classes in order to control css*/
-{
+.footer .gmail, .location, .call /*-------made additional classes in order to control css*/ {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-  padding: 2% 0;
-  line-height: 30px;
   text-align: center;
   color: antiquewhite;
 }
@@ -221,14 +212,13 @@ footer h2 {
 .Github,
 .map,
 .email,
-.number { 
+.number {
   margin: 30px; /*Spacing in-between logos*/
   display: inline-block;
   padding: 20px 20px;
   color: #ffff;
   border: 1px solid #fdbb2d;
   border-radius: 50%;
-    
 }
 
 .social-icons :hover {
@@ -262,7 +252,8 @@ footer h2 {
   font-family: cursive;
 }
 
-.grid {  /*Three columns Grid in the orange section*/
+.grid {
+  /*Three columns Grid in the orange section*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3%;
@@ -278,7 +269,7 @@ footer h2 {
   padding: 10px;
 }
 
-.grid p{
+.grid p {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   padding: 2% 0;
@@ -289,7 +280,7 @@ footer h2 {
 /*Form CSS*/
 fieldset {
   border: #16191e;
- }
+}
 
 form input,
 form textarea,
@@ -332,37 +323,34 @@ img:hover {
   border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%; /* used fancy radius generator*/
 }
 
-
 /*===========================@MEDIA  STARTS HERE (TABLET, MID AND MIN SCREENS==============================*/
- 
- /*====================LAPTOP 1024PX======================*/
- @media screen and (max-width:1024px)
 
- {
-  
-    .logo { /*Keo Magano's resume*/
-      width: 40%;
-      float: left;
-      text-align: left;
-      line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
-    }
-    .content-area {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 1400px;
-      margin-bottom: 20%;
-      position: relative;
-      background: #16191e;
-      top: 100px;
-       
-     }
+/*====================LAPTOP 1024PX======================*/
+@media screen and (max-width: 1024px) {
+  .logo {
+    /*Keo Magano's resume*/
+    width: 40%;
+    float: left;
+    text-align: left;
+    line-height: 100px; /*this helps position the hight of a line drop or pick up a line*/
   }
- 
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1400px;
+    margin-bottom: 20%;
+    position: relative;
+    background: #16191e;
+    top: 100px;
+  }
+  nav {
+    background-color: #16191e;
+  }
+}
 
- /*==========Tablet Sizes========*/
-@media screen and (max-width:768px)
-{  
+/*==========Tablet Sizes========*/
+@media screen and (max-width: 768px) {
   .content-area {
     display: flex;
     flex-direction: column;
@@ -372,15 +360,14 @@ img:hover {
     position: relative;
     background: #16191e;
     top: 100px;
-     
-   }
-  .grid { 
-    display:flex;
+  }
+  .grid {
+    display: flex;
     flex-direction: column;
     align-items: center;
     background: orangered;
   }
- 
+
   .logo {
     display: flex;
     width: 20%;
@@ -397,10 +384,9 @@ img:hover {
   }
 
   nav {
-   float: right;
-   line-height: 100px;
-   
- }
+    float: right;
+    line-height: 100px;
+  }
   nav a {
     text-decoration: none;
     font-family: "Caveat", cursive;
@@ -408,7 +394,6 @@ img:hover {
     color: beige;
     margin: 0%;
     padding: 0%;
-    
   }
 
   .menu {
@@ -424,7 +409,6 @@ img:hover {
     background: #3a1c71;
   }
 
-
   .static-txt {
     color: #3a1c71;
     font-family: "Source Code Pro", monospace;
@@ -434,14 +418,11 @@ img:hover {
     margin-top: 30%;
     margin-right: 0%; /*Keeps words in a horizontal line*/
   }
+}
 
-  }
-
-  
 /*==========LARGE========*/
 
-@media screen and (max-width:428px)
-{  
+@media screen and (max-width: 428px) {
   .content-area {
     display: flex;
     flex-direction: column;
@@ -450,141 +431,131 @@ img:hover {
     margin-bottom: 20%;
     position: relative;
     background: #16191e;
-    top: 100px;}
+    top: 100px;
+  }
 
-    .footer .gmail, .location, .call /*-------made additional classes in order to control css*/
-{
-  display: flex;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
-  align-items: center;
-  line-height: 30px;
-  color: antiquewhite;
-  margin-left: 30%;
-  
-}
- .grid {
-   display: flex;
-   background: orangered;
+  .footer .gmail, .location, .call /*-------made additional classes in order to control css*/ {
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+    line-height: 30px;
+    color: antiquewhite;
+    margin-left: 30%;
+  }
+  .grid {
+    display: flex;
+    background: orangered;
+  }
+  .grid h2 {
+    background: olive;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    padding: 2%;
+  }
 
- }
- .grid h2 {
-   background: olive;
-   font-family: "Source Code Pro", monospace;
-   font-size: 20px;
-   padding: 2%;
- }
+  .logo {
+    width: 20%;
+    float: left;
+    text-align: left;
+    line-height: 50px; /*this helps position the hight of a line drop or pick up a line*/
+  }
+  .logo a {
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Source Code Pro", monospace;
+    color: beige;
+    width: 80px;
+  }
 
- .logo {
-  
-  width: 20%;
-  float: left;
-  text-align: left;
-  line-height: 50px; /*this helps position the hight of a line drop or pick up a line*/
-}
-.logo a {
-  display: flex;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: "Source Code Pro", monospace;
-  color: beige;
-  width: 80px;
-  
-}
+  nav {
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    padding-right: 5%;
+  }
 
-nav {
-   display: flex;
-   flex-direction: row;
-   line-height: 30px;
-   padding-right: 5%;
-      
- }
+  nav a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 21px;
+    letter-spacing: 3px;
+    color: beige;
+    margin-right: 2%;
+    padding-right: 0%;
+  }
 
- nav a {
-   text-decoration: none;
-   font-family: "Caveat", cursive;
-   font-size: 21px;
-   letter-spacing: 3px;
-   color: beige;
-   margin-right: 2%;
-   padding-right: 0%;
-   
- }
+  nav a:hover {
+    background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+    border-radius: 10px;
+  }
 
- nav a:hover {
-   background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
-   border-radius: 10px;
- }
+  .menu {
+    margin-top: 10%;
+  }
+  .menu a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: beige;
+    padding: 15px 20px;
+    background: #3a1c71;
+  }
 
- .menu {
-   margin-top: 10%;
-   
- }
- .menu a {
-   text-decoration: none;
-   font-family: "Caveat", cursive;
-   font-size: 20px;
-   letter-spacing: 4px;
-   color: beige;
-   padding: 15px 20px;
-   background: #3a1c71;
- }
+  .menu a:hover {
+    background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+    border-radius: 20px;
+  }
 
- .menu a:hover {
-   background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
-   border-radius: 20px;
- }
+  .static-txt {
+    color: #3a1c71;
+    font-family: "Source Code Pro", monospace;
+    font-size: 35px;
+    background: orangered;
+    margin-top: 80%;
+    margin-right: 0%; /*Keeps words in a horizontal line*/
+    padding: 14px;
+  }
 
- .static-txt {
-   color: #3a1c71;
-   font-family: "Source Code Pro", monospace;
-   font-size: 35px;
-   background: orangered;
-   margin-top: 80%;
-   margin-right: 0%; /*Keeps words in a horizontal line*/
-   padding: 14px;
- }
+  .animation-text {
+    height: 90px;
+    overflow: hidden;
+    background: #3a1c71;
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .animation-text li {
+    color: #fdbb2d;
+    font-family: "Caveat", cursive;
+    font-size: 70px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: slide 4s steps(4) infinite;
+  }
 
+  img {
+    padding-left: 5%;
+    transition: border-radius 500ms ease-in-out;
+  }
 
- .animation-text {
-   height: 90px;
-   overflow: hidden;
-   background: #3a1c71;
-   margin-top: 10%;
-   margin-left: 0%;
- }
- .animation-text li {
-   color: #fdbb2d;
-   font-family: "Caveat", cursive;
-   font-size: 70px;
-   font-weight: 400;
-   position: relative;
-   top: 0;
-   animation: slide 4s steps(4) infinite;
- }
+  img:hover {
+    border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%;
+  }
 
- img {
-   padding-left: 5%;
-   transition: border-radius 500ms ease-in-out;
- }
-
- img:hover {
-   border-radius: 0% 100% 0% 100% / 57% 52% 48% 43%;
- }
-
- .number {
-   color: bisque;
-   font-size: 20px;
-   font-family: cursive;
-   margin-bottom: 5%;
- }
-
+  .number {
+    color: bisque;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 5%;
+  }
 }
 
 /*==========MOBILE S 320PX========*/
 
-@media screen and (max-width:320px)
-{
+@media screen and (max-width: 320px) {
   .content-area {
     display: flex;
     flex-direction: column;
@@ -593,23 +564,30 @@ nav {
     margin-bottom: 20%;
     position: relative;
     background: #16191e;
-    top: 80px;}
+    top: 80px;
+  }
 
-    .footer .gmail, .location, .call /*-------made additional classes in order to control css*/
-    {
-      display: flex;
-      font-family: "Courier New", Courier, monospace;
-      font-size: 20px;
-      align-items: center;
-      line-height: 30px;
-      color: antiquewhite;
-      margin-left: 25%;}
+  .footer .gmail, .location, .call /*-------made additional classes in order to control css*/ {
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+    line-height: 30px;
+    color: antiquewhite;
+    margin-left: 25%;
+  }
 
-      .animation-text {
-        height: 90px;
-        overflow: hidden; /* hides the other words so one word can show at a time*/
-        background: #3a1c71;
-        margin-top: 10%;
-             }
-      
+  .animation-text {
+    height: 90px;
+    overflow: hidden; /* hides the other words so one word can show at a time*/
+    background: #3a1c71;
+    margin-top: 10%;
+  }
+
+   nav a {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-size: 16px;
+    color: beige;
+  }
 }
