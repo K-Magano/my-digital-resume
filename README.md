@@ -5,10 +5,14 @@ Author: Keorapeste Magano.
 Languages used: 
           CSS and HTML.
 
-Figma wireframe link: 
+Figma wireframe link: https://www.figma.com/file/eo5v0yOlpooyyxTz7bZUGO/Digital-Resume-WireFrame.?node-id=0%3A1&t=dODen1Owl4YyxrwE-1 
 
 Description: Working on my final capstone.
-             An online portfolio/Resume with some of my coding skills. 
+             An online web responsive portfolio/Resume using HTML and CSS.
+             Basic understanding of Git and GitHub, links, grid layout and CSS Box Model and positioning.
+             Adding submission forms 
+             
+              
 
  Resources: LMS
             Google fonts for different fonts.
