@@ -1,4 +1,4 @@
-# KEOMAG963_BCL2302_Naeem_KeorapesteMagano_digital-Resume_ITW9
+#Digital-Resume
 
 Author: Keorapeste Magano.  
 
@@ -9,10 +9,10 @@ Figma wireframe link: https://www.figma.com/file/eo5v0yOlpooyyxTz7bZUGO/Digital-
 
 Description: 
 
-             Working on my final capstone for Intro to web, Resume 9: Digital Resumé.
+             Working on my final capstone for Intro to Web, Resume 9: Digital Resumé.
 
              An online web responsive portfolio/Resume using HTML and CSS.
-             Basic understanding of Git and GitHub, links, grid layout and CSS Box Model and positioning.
+             Basic understanding of Git and GitHub, links, grid layout, and CSS Box Model and positioning.
              Adding submission forms 
              
               
